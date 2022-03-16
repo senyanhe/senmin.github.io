@@ -1,0 +1,180 @@
+body {background: url(https://i.imgur.com/KIlhlit.jpg)fixed;
+background-size: 170% ;}
+
+.emj-dropdown-content {width:50%!important;}
+
+.post-content,.comment-content {background-color:#472f2f80;
+background-position:center;
+border:#747875 dashed 1px;
+padding:10px;
+margin-top:60px;}
+
+.post-content a:hover {
+    text-decoration: unset;
+    transition: 0.2s;
+text-shadow: 0 0 3px #fff;
+}
+
+.comment-content a:hover {
+    text-decoration: unset;
+    transition: 0.2s;
+text-shadow: 0 0 3px #fff;
+}
+
+.navbar-brand {font-size:15px;}
+.navbar-brand a:hover {
+    text-decoration: unset;
+    transition: 0.2s;
+    padding-left: 5px !important;
+text-shadow: 0 0 3px #fff;
+}
+
+a,div,td{ color: #ffffff!important;}
+
+.textareabg {background:transparent;
+padding-right:10px;
+text-align: center;
+padding-bottom:10px;}
+
+.content {width:60%;	
+margin-left: 5%;
+margin-top:-10px;}
+
+.avatar-select-list {height: 234px;}
+
+.left-menu > div > h3 {background-color:#472f2f!important;
+border-bottom:#747875 dashed 1px;
+border-top:#747875 dashed 1px;} 
+
+.left-menu{background: url(https://i.imgur.com/N8yC7T2.jpg)scroll no-repeat;
+background-color:#b4b5ba;
+background-size: 350% ;
+background-position:center;
+width:350px;
+border:#747875 dashed 1px!important;
+margin-left: 2%!important;}
+
+.left-menu img{display:none!important;}
+
+.left-menu a:hover {
+    text-decoration: unset;
+    transition: 0.7s;
+ padding-left: 4px !important;
+text-shadow: 0 0 3px #fff;
+}
+
+
+
+.post-opt.col-12.col-md-6.text-right {
+position: relative;
+}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #fff;
+    cursor: pointer;}
+
+span[data-target="#deleteconfirmmodal"]:hover {
+    text-decoration: unset;
+    transition: 0.2s;
+text-shadow: 0 0 3px #fff;
+}
+
+.row.w-100 {margin-top:60px;
+position: sticky;}
+
+.post-text{margin-top:20px;
+padding:5px;}
+
+.blog_total_counter{display:none;}
+
+.datebg {background: url(https://i.imgur.com/lUt6Mrz.png) scroll repeat-y center right;
+background-size: 90% ;
+background-color:#442e2d!important;
+border-bottom:#747875 dashed 1px;
+border-top:#747875 dashed 1px;}
+
+.datebg {
+    padding-left: 5px;
+    font-weight: normal;
+text-align:left;
+    font-size: 80%;
+}
+
+.post-title {
+font-size: 20px;
+    text-decoration: none;
+}
+
+
+.post-title:hover {
+    text-decoration: unset;
+    transition: 0.7s;
+text-shadow: 0 0 4px #fff;
+}
+
+nav.navbar {background: url() scroll no-repeat top left;
+background-size: 50% ;
+border-bottom:#747875 dashed 1px;
+border-top:#747875 dashed 1px;
+background-color:#472f2f80;	}
+
+   li {
+    list-style-type: none;}
+
+nav.navbar a:hover {
+    text-decoration: unset;
+    transition: 0.2s;
+text-shadow: 0 0 3px #fff;
+}
+
+h2 {background: url() scroll repeat-y center right;
+background-size: 90% ;
+border-bottom:#747875 dashed 1px;
+border-top:#747875 dashed 1px;
+background-color:#472f2f80;
+}
+
+.modal-content  {background-color:#442e2d;
+border-bottom:#747875 dashed 1px;
+border-top:#747875 dashed 1px;
+	}
+
+.modal-header,.modal-footer{border:none;}
+
+
+::-webkit-scrollbar-thumb {
+    width: 3px;
+    background-color: #ffffff70;
+border-radius: 3px;}
+
+::-webkit-scrollbar-thumb:hover {background-color:#fff;
+    	tansition: all .3s linear;
+    	-webkit-transition: all .3s linear;
+    	-moz-transition: all .3s linear; }
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color:#442e2d;
+}
+
+h3.left-menu-text {font-size:15px;}
+
+.menu__box {background-color:#442e2d;}
+
+@media (max-width: 700px){
+.left-menu,.content,nav.navbar,.post-content,.comment-content,.datebg,.navbar-brand,.row.w-100 ,.post-text{
+    margin: 0 0!important;
+}
+
+@media (max-width: 700px){
+.content,.left-menu, nav.navbar, .textareabg,.post-content,.comment-content,.navbar-expand-md>.container{
+width: 100%;
+}
+
+@media (max-width: 700px){
+.left-menu,.row.w-100 {position:relative !important;}
+
+@media (max-width: 700px){.textarea-wrapper {width: 99%; margin-left: -3px;}
+
+@media (max-width: 700px){body {background: url(https://i.imgur.com/KIlhlit.jpg)fixed center no-repeat;
+background-size: auto ;}
