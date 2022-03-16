@@ -1,0 +1,200 @@
+a,div,td{ color: #75aafc !important;
+text-transform: lowercase !important;}
+
+body{background:#f0f2f5;
+}
+
+.emj-dropdown-content {width:50%!important;}
+
+nav.navbar{background:url(https://i.imgur.com/bGe2Q9B.png)fixed no-repeat;
+height: 240px!important;
+position: static !important;
+box-shadow: none !important;
+background-size: cover;
+background-position: top;
+background-repeat: repeat-x;
+background-attachment: scroll;}
+
+nav.navbar a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #00000060;
+}
+
+.navbar-brand {
+    -webkit-transform: scale(1);
+}
+.navbar-brand:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #00000060;
+}
+
+.left-menu{width:339px;
+position:absolute;
+background:linear-gradient(to bottom right, white, rgba(200, 207, 205) );
+margin-left: 69%!important;
+margin-top:50px!important;
+border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+    border-bottom-left-radius: 15px!important;
+    border-bottom-right-radius: 15px!important;
+    box-shadow: px px 0px 0px rgba(, , , 0)!important;
+    border-left: 1px double #8bb9ff!important;
+    border-right: 1px double #8bb9ff!important;
+    border-top: 1px double #8bb9ff!important;
+    border-bottom: 1px double #8bb9ff!important;
+}
+.left-menu a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #00000060;
+}
+
+
+.content{background:linear-gradient(to bottom right, white, rgba(200, 207, 205) );
+width:60%;
+margin-left: 3%!important;
+padding: 5px;
+border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px ;
+    box-shadow: px px 0px 0px rgba(, , , 0);
+    border-left: 1px double #8bb9ff;
+    border-right: 1px double #8bb9ff;
+    border-top: 1px double #8bb9ff;
+    border-bottom: 1px double #8bb9ff;}
+.post-content a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #00000060;
+}
+
+.textareabg {background:transparent;
+text-align: center;}
+
+
+
+.comment-content {background:transparent;
+padding: 5px;
+border-bottom: #8bb9ff dashed 1px;
+}
+.comment-content a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #00000060;
+}
+
+.content {margin-top:50px!important;}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #fff;
+    cursor: pointer;}
+
+span[data-target="#deleteconfirmmodal"]:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #00000060;
+}
+
+.row.w-100 {margin-top:60px;
+position: sticky;}
+
+h3.left-menu-text {font-size:15px;
+text-align:center;
+background: #8bb9ff90 !important;}
+
+.datebg {background:transparent;}
+
+.datebg {
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: normal;
+text-align:center;
+    font-size: 80%;
+}
+
+.crumbs {text-align:center;}
+.crumbs a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #00000060;
+}
+
+.blog_total_counter{display:none;}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #75aafc;
+    cursor: pointer;}
+
+.post-text{margin-top:20px;
+border-bottom: #8bb9ff dashed 1px;}
+
+
+.avatar-select-list {height: 234px;}
+
+::-webkit-scrollbar-thumb {
+    width: 7px;
+    background-color: #75aafc;
+border-radius: 10px;}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #00000030;
+}
+
+h2 {text-align:center;
+    font-size: 80%;}
+
+#footer{display:none;}
+
+.post-title {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.post-title-date {
+    font-size: 0.7rem;
+    color: gray;
+ padding-left: 0px; 
+}
+
+.navbar-expand-md>.container{margin-top:120px;
+border-bottom: #8bb9ff dashed 1px;}
+
+.imagefsme {
+    cursor: zoom-in;
+ padding: 0px;}
+
+.menu__box {
+    z-index: 1;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 40px 0;
+    list-style: none;
+background:#f0f2f5
+    transition-duration: .25s;
+}
+
+@media (max-width: 700px){
+.left-menu ,.content,nav.navbar{
+    margin: 0 0!important;
+}
+
+@media (max-width: 700px){
+.content ,.left-menu,nav.navbar, .textareabg{
+width: 100%;
+}
+
+@media (max-width: 700px){
+.left-menu{position:relative !important;}
+
+@media (max-width: 700px){.textarea-wrapper {width: 99%; margin-left: -3px;}
