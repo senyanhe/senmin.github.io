@@ -1,0 +1,88 @@
+a,div,td{ color: #000!important;}
+
+.emj-dropdown-content {width:50%!important;}
+
+.post-content,.comment-content {  border-left: 1px double #a05cff!important;
+    border-right: 1px double #001799!important;
+    border-top: 1px double #a05cff!important;
+    border-bottom: 1px double #001799!important; 
+padding:6px;
+margin-top:60px;}
+
+.content {width:60%;	
+margin-left: 5%;
+margin-top:-10px;}
+
+.left-menu > div > h3 { background: linear-gradient(to bottom left, #a05cff , #001799 80%);} 
+
+.left-menu{    border-left: 1px double #a05cff!important;
+    border-right: 1px double #001799!important;
+    border-top: 1px double #a05cff!important;
+    border-bottom: 1px double #001799!important; }
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #001799!important;
+    cursor: pointer;}
+
+.post-text a{ color: #a05cff!important;}
+
+.post-title { color: #001799!important;
+text-decoration: none;}
+
+.datebg {background: linear-gradient(to bottom left, #a05cff , #001799 80%);
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: normal;
+text-align:left;
+    font-size: 80%;
+ color: #fff!important;}
+
+.post-title-date { color: #a05cff !important;}
+
+h1 {text-align:center;
+}
+
+
+.blog_total_counter{background:transparent;
+height:60px;
+font-size:10px!important;
+text-align:center;
+ color: #a05cff !important;}
+
+nav.navbar {background: linear-gradient(to bottom left, #a05cff 50%, #001799);}
+nav.navbar a{color: #fff !important;}
+li {color: #fff !important;}
+
+.menu__box {background: #001799;
+color: #fff !important;
+font-weight:0 !important;}
+.menu__item {font-weight:10!important;}
+
+.modal-content  {border-left: 1px double #a05cff!important;
+    border-right: 1px double #001799!important;
+    border-top: 1px double #a05cff!important;
+    border-bottom: 1px double #001799!important; 
+}
+
+.modal-header,.modal-footer{border:none;}
+
+.sign {
+    font-size: 10px;
+    text-align: center;
+ color: #a05cff!important;}
+
+.fas{ color: #001799!important;}
+
+
+
+@media (max-width: 700px){
+.left-menu ,.content,nav.navbar{
+    margin: 0 0!important;
+}
+
+@media (max-width: 700px){
+.content ,.left-menu,nav.navbar, .textareabg{
+width: 100%;
+}
+
+@media (max-width: 700px){.textarea-wrapper {width: 99%; margin-left: -3px;}
