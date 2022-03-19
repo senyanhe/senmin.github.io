@@ -1,0 +1,188 @@
+a,div,td{ color: #cc524b!important;
+text-transform: lowercase !important; }
+body{background-color:#f4f4f4;}
+#footer{display:none;}
+.crumbs {text-align:center;}
+
+.py-4{background-color:#e18e8f!important;
+min-height:700px;
+width: 82%;
+border-radius: 80px;
+margin-left:150px;}
+
+.content{margin-top:-80px;
+width: 60%;
+z-index:1;
+background-color:#ffd1d1;
+box-shadow: 0 2px 9px rgba(0, 0, 0, .25);
+border-radius: 80px;
+margin-top:30px;
+margin-left:360px;
+margin-bottom:50px;}
+
+.comment-content,.post-content {margin: 15px 15px 20px;
+}
+
+.left-menu{margin-top:100px;
+border: #cc524b dotted 1px!important;
+overflow: auto;
+margin-left:94px;
+position:absolute;
+text-align:center;
+box-shadow: 0 2px 9px rgba(0, 0, 0, .25);
+background-color:#f4f4f4!important;
+width:270px;
+height: 500px;
+border-top-left-radius: 80px;
+border-bottom-left-radius: 80px;}
+
+h3.left-menu-text {background:linear-gradient(rgb(241,161,163), rgb(255,209,209))!important;
+font-size:15px;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #FFF}
+
+::-webkit-scrollbar-thumb {
+background: #fff !important;
+}
+.textareabg {margin: 15px 15px 20px;
+background:transparent;
+text-align: center;}
+h1 {text-align:center;
+    font-size: 80%;}
+h2 {text-align:center;
+    font-size: 80%;}
+.post-title {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.post-title-date {
+    font-size: 0.7rem;
+    color: gray;
+ padding-left: 0px; 
+}
+.emj-dropdown-content {width:50%!important;}
+.row.w-100 {margin-top:60px;
+position: sticky;}
+span[data-target="#deleteconfirmmodal"] {
+    color: #cc524b;
+    cursor: pointer;}
+
+.datebg {
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 80%;
+}
+.btn-primary,.btn-secondary{ background: #fbcbcb !important;
+border: none;}
+:focus {outline: none !important;}
+
+.post-text{margin-top:20px;
+border-bottom: #cc524b dotted 1px;}
+
+input{background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
+border: #cc524b dotted 1px;
+border-radius: 5px;
+color:#fff }
+
+input:hover{background:linear-gradient(rgb(255,209,209), rgb(241,161,163));
+color:#cc524b; }
+
+form.messageform select{background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
+border: #cc524b dotted 1px;
+border-radius: 5px;
+color:#cc524b }
+
+form.messageform option{background:rgb(241,161,163);
+color:#cc524b }
+
+.alert-success {background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
+border: #cc524b dotted 1px;
+border-radius: 5px;
+color:#cc524b; 
+text-align:center;}
+
+.left-menu>div {padding-bottom: 10px;}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.left-menu-text:hover, div#beon-fnplayer+div.left-menu-text p.left-menu-text:hover {
+ background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
+}
+
+nav.navbar{background-color:#ffd1d1;}
+nav.navbar a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #cc524b;
+}
+
+.navbar-brand {
+    -webkit-transform: scale(1);
+}
+.navbar-brand:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #cc524b;
+}
+.left-menu a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #cc524b;
+}
+.post-content a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #cc524b;
+}
+.comment-content a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #cc524b;
+}
+span[data-target="#deleteconfirmmodal"]:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #cc524b;
+}
+.crumbs a:hover {
+text-decoration: unset;
+transition: 0.2s;
+text-shadow: 0 0 3px #cc524b;
+}
+.avatar-select-list {height: 234px;}
+.avatar-select-label-selected {
+    border: 4px solid #cc524b70;
+}
+
+.menu__box {
+    z-index: 2;
+    background-color: #f4f4f4;
+}
+
+
+.menu__btn {
+    z-index: 3;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #cc524b!important;}
+
+@media (max-width: 1024px) {.py-4,.left-menu,.content{
+width: 100%;
+margin: 0 0!important;
+border-radius:0!important;
+}
+.left-menu{position:relative !important;
+height:auto;}}
