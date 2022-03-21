@@ -1,0 +1,179 @@
+body{background: #ffe1af;}
+#footer{display:none;}
+.crumbs {background:url(https://i.imgur.com/jz5pI4p.png)!important;
+border-top:#ad8295 dashed 1px;
+border-bottom:#ad8295 dashed 1px;}
+a,div,td{ color: #91697a!important;
+text-transform: lowercase !important; }
+
+.left-menu{background-image:url(https://i.imgur.com/Bxql86D.png);
+background-size: 65%;
+text-shadow: 0 0 3px #91697a;
+width:350px;
+margin-left:70px;
+margin-top:13px;
+text-align:center;
+border-radius:50px;
+border-left:#ad8295 dashed 1px!important;
+border-right:#ad8295 dashed 1px!important;
+border-bottom:#ad8295 dashed 1px!important;
+background-position:bottom;
+border-top:none!important;}
+
+.comment-content,.post-content,.textareabg {margin: 15px 15px 20px;
+padding:15px;}
+
+.post-content,.comment-content {background:url(https://i.imgur.com/VZ5rze7.jpg);
+background-size: 30%;
+padding:20px;
+margin-top:13px;
+border:#ad8295 dashed 1px;
+border-radius:50px;}
+
+.left-menu > div > h3 {background:url(https://i.imgur.com/jz5pI4p.png)!important;
+border-top:#ad8295 dashed 1px;
+border-bottom:#ad8295 dashed 1px;
+font-size:15px;
+color: #91697a!important;
+text-align:center;}
+
+.content{
+margin-left:40px;
+width: 65%;}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+h1 {text-align:center;
+    font-size: 90%;}
+h2 {text-align:center;
+    font-size: 90%;}
+.post-title {
+    font-size: 20px;
+    text-decoration: none;
+}
+.textareabg {background:url(https://i.imgur.com/jz5pI4p.png);
+border-radius:50px;
+background-size: 30%;
+border:#ad8295 dashed 1px;
+text-align: center;}
+
+.post-text{margin-top:20px;}
+
+.datebg {border-bottom:#ad8295 dashed 1px;
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 80%;
+text-align:center;}
+
+.post-title-date {
+    font-size: 0.7rem;
+    color: gray;
+ padding-left: 0px; 
+}
+.emj-dropdown-content {width:50%!important;}
+.row.w-100 {margin-top:60px;
+position: sticky;}
+span[data-target="#deleteconfirmmodal"] {
+    color:#91697a;
+    cursor: pointer;}
+
+.avatar-select-list {height: 234px;}
+.avatar-select-label-selected {
+    border: 4px solid #91697a;}
+
+.btn-primary,.btn-secondary{ background:url(https://i.imgur.com/jz5pI4p.png)!important;
+    color:#91697a!important;
+border:#ad8295 dashed 1px;}
+:focus {outline: none !important;}
+
+
+
+input{background:url(https://i.imgur.com/VZ5rze7.jpg)!important;
+    color:#91697a!important;
+margin: 3px 3px 3px;
+border-radius:10px;
+border:#ad8295 dashed 1px;}
+input:hover{background:url(https://i.imgur.com/jz5pI4p.png)!important;}
+
+nav.navbar{background:url(https://i.imgur.com/jz5pI4p.png);
+background-size: 25%;
+border-bottom:#ad8295 dashed 1px!important;}
+
+.avatar-select-list {height: 234px;
+}
+
+nav.navbar a:hover{
+text-decoration: unset;
+}
+.navbar-brand:hover {
+text-decoration: unset;
+}
+.left-menu a:hover {
+text-decoration: unset;
+}
+.post-content a:hover {
+text-decoration: unset;
+}
+.comment-content a:hover {
+text-decoration: unset;
+}
+span[data-target="#deleteconfirmmodal"]:hover {
+text-decoration: unset;
+}
+.crumbs a:hover {
+text-decoration: unset;
+}
+
+.blog_total_counter{display:none;}
+
+.comment-box__message-partial{height:10px;
+text-align:center;}
+
+.modal-content  {background:url(https://i.imgur.com/VZ5rze7.jpg);
+border:#ad8295 dashed 1px;
+background-size: 50%;}
+
+::-webkit-scrollbar-thumb {
+    width: 7px;
+    background-color: #00000020;;
+border-radius: 10px;}
+
+.alert-success {background:url(https://i.imgur.com/VZ5rze7.jpg);
+border:#ad8295 dashed 1px;
+background-size: 50%;}
+
+form.messageform select{background:url(https://i.imgur.com/VZ5rze7.jpg);
+border:#ad8295 dashed 1px;
+color:#ad8295;}
+
+form.messageform option{background: #ffe1af;
+color:#ad8295; }
+
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color:#ffe1af
+}
+
+.menu__box {background-image:url(https://i.imgur.com/FHvKecI.jpg);
+border-left:#ad8295 dashed 1px!important;}
+.menu__item {text-align:left;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #91697a!important;}
+
+@media (max-width: 1024px) {.py-4,.left-menu,.content{
+width: 100%;
+margin: 0 0!important;
+}
+
+.post-content,.comment-content,.textareabg,nav.navbar{background-size: 100%;}}
+
+main.py-4{
+max-width: 1400px;
+width:100%;
+margin: auto;
+}
