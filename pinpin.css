@@ -13,6 +13,7 @@ margin-left:150px;}
 .content{margin-top:-80px;
 width: 60%;
 z-index:1;
+min-height:700px;
 background-color:#ffd1d1;
 box-shadow: 0 2px 9px rgba(0, 0, 0, .25);
 border-radius: 80px;
@@ -26,13 +27,13 @@ margin-bottom:50px;}
 .left-menu{margin-top:100px;
 border: #cc524b dotted 1px!important;
 overflow: auto;
-margin-left:94px;
+margin-left:93px;
 position:absolute;
 text-align:center;
 box-shadow: 0 2px 9px rgba(0, 0, 0, .25);
 background-color:#f4f4f4!important;
 width:270px;
-height: 500px;
+max-height: 500px;
 border-top-left-radius: 80px;
 border-bottom-left-radius: 80px;}
 
@@ -48,7 +49,7 @@ right: 10px;}
 ::-webkit-scrollbar-track {
 box-shadow: none;
 border-radius: 2px;
-background-color: #FFF}
+background-color: #e18e8f}
 
 ::-webkit-scrollbar-thumb {
 background: #fff !important;
@@ -121,7 +122,6 @@ p {
 div.left-menu-text:hover, div#beon-fnplayer+div.left-menu-text p.left-menu-text:hover {
  background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
 }
-
 nav.navbar{background-color:#ffd1d1;}
 nav.navbar a:hover {
 text-decoration: unset;
@@ -185,4 +185,9 @@ margin: 0 0!important;
 border-radius:0!important;
 }
 .left-menu{position:relative !important;
-height:auto;}}
+height: auto;}}
+
+@media{main.py-4{
+max-width: 1920px;
+margin: auto;
+}
