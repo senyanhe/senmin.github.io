@@ -1,6 +1,6 @@
 a,div,td{ color: #75aafc !important;
 text-transform: lowercase !important;}
-
+:focus {outline: none !important;}
 body{background:#f0f2f5;
 }
 
@@ -30,7 +30,8 @@ transition: 0.2s;
 text-shadow: 0 0 3px #00000060;
 }
 
-.left-menu{width:339px;
+.left-menu{max-width:500px;
+min-width:300px;
 position:absolute;
 background:linear-gradient(to bottom right, white, rgba(200, 207, 205) );
 margin-left: 69%!important;
@@ -168,6 +169,10 @@ border-bottom: #8bb9ff dashed 1px;}
     cursor: zoom-in;
  padding: 0px;}
 
+.avatar-select-label-selected {
+    border: 4px solid #75aafc;
+}
+
 .menu__box {
     z-index: 1;
     display: block;
@@ -184,6 +189,33 @@ background:#f0f2f5
     transition-duration: .25s;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input{background:linear-gradient( rgba(200, 207, 205), white );
+margin: 2px 2px 2px;
+  border: 1px double #8bb9ff;
+border-radius: 5px;
+color:#75aafc}
+
+input:hover{background:linear-gradient( white,  rgba(200, 207, 205) );
+color:#75aafc; }
+
+form.messageform select{background:linear-gradient(to bottom right,  rgba(200, 207, 205) ,white);
+  border: 1px double #8bb9ff;
+border-radius: 5px;
+color:#75aafc }
+
+form.messageform option{background:#8bb9ff;
+color:#fff }
+
+.btn-primary,.btn-secondary{ background:linear-gradient(to bottom right,  rgba(200, 207, 205) ,white);
+  border: 1px double #8bb9ff;
+border-radius: 5px;
+color:#75aafc }
+
 @media (max-width: 700px){
 .left-menu ,.content,nav.navbar{
     margin: 0 0!important;
@@ -194,7 +226,11 @@ background:#f0f2f5
 width: 100%;
 }
 
-@media (max-width: 700px){
 .left-menu{position:relative !important;}
 
-@media (max-width: 700px){.textarea-wrapper {width: 99%; margin-left: -3px;}
+.textarea-wrapper {width: 99%; margin-left: -3px;}}
+
+@media{main.py-4{
+max-width: 1920px;
+margin: auto;
+}
