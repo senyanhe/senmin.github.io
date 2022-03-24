@@ -210,11 +210,17 @@ font-size:15px;
 color:#fff;}
 
 [href="/design/disable"] {
-background: red;
+background: white;
 position: fixed;
-top: 100px;
-left: 0;
+top: 110px;
+left: -50px;
 }
+[href="/design/disable"]:hover {
+background: white;
+position: fixed;
+top: 110px;
+left: -50px;
+opacity:1;}
 
 
 @media (max-width: 1024px) {.left-menu{position:relative !important;
