@@ -214,7 +214,7 @@ background: #fff;
 position: absolute;
 margin-top: -110px;
 margin-left: 50px;
-}
+opacity:1!important;}
 
 
 @media (max-width: 1024px) {.left-menu{position:relative !important;
