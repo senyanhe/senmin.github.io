@@ -200,9 +200,8 @@ text-shadow: 0 0 3px #fff;}
 
 .user:before { filter: grayscale(100%);}
 
-[href="//solarinoo.beon.fun"]:before {
+.post-avatar [href="//solarinoo.beon.fun"]:before {
 content: 'пес';
-position: absolute;
 text-shadow: 1px 0 1px #000, 
 0 1px 1px #000, 
 -1px 0 1px #000, 
