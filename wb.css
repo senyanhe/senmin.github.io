@@ -6,7 +6,7 @@ width:80%;
 margin:10%;
 border: 4px double #fff;
 }
-.modal-content a{color:#000!important;}
+.modal-content div{color:#000!important;}
 .blog_total_counter{display:none;}
 .avatar-select-list {height: 234px;}
 h2 {text-align:center;
