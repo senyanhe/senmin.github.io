@@ -131,7 +131,6 @@ margin: 0 0!important;
 height: auto;}
 .content:before {display:none;}}
 @media (max-width: 500px){.content{border:none;}}
-@media(max-width: 500px){main.py-4{
+@media(max-width: 1020px){main.py-4{
 width:100%;
-margin: auto;
-}
+    }}
