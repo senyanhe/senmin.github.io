@@ -123,7 +123,7 @@ background: #000 !important;
 
 ul {list-style: circle outside;}
 
-@media (max-width: 1024px) {.left-menu,.content,.comment-content,.post-content{
+@media (max-width: 1024px) {.left-menu,.content,.comment-content,.post-content,.py-4{
 width: auto;
 margin: 0 0!important;
 }
@@ -131,6 +131,3 @@ margin: 0 0!important;
 height: auto;}
 .content:before {display:none;}}
 @media (max-width: 500px){.content{border:none;}}
-@media(max-width: 1020px){main.py-4{
-width:100%;
-    }}
