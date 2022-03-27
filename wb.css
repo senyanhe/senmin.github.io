@@ -127,7 +127,6 @@ ul {list-style: circle outside;}
 width: auto;
 margin: 0 0!important;
 }
-.py-4 {width: 100%!important;}
 .left-menu{position:relative !important;
 height: auto;}
 .content:before {display:none;}}
