@@ -164,6 +164,9 @@ text-decoration: unset;
 text-decoration: unset;
 }
 
+.menu__box{border-left:1px solid #ff9bb8!important;
+background-image:url(https://i.imgur.com/ooyJHfC.png),#201a24!important;}
+
 @media (max-width: 1024px) {.py-4,.left-menu,.content,.comment-content,.post-content,.textareabg,.datebg  {
 width: 100%;
 margin: 0 0!important;
