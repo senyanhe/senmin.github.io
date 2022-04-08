@@ -97,6 +97,8 @@ border-radius:10px!important;
 background:url(https://i.imgur.com/ooyJHfC.png);
 background-color:#201a2430;}
 
+.blog__last-comments{word-break: break-word;}
+
 span[data-target="#deleteconfirmmodal"]{color:#ff9bb8!important;}
 
 .left-menu{min-width:350px;
