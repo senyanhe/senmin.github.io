@@ -165,17 +165,8 @@ text-decoration: unset;
 }
 
 @media (max-width: 1024px) {.py-4,.left-menu,.content,.comment-content,.post-content,.textareabg,.datebg  {
-
+width: 100%;
 margin: 0 0!important;
 }
 .left-menu{position:relative !important;
-    }}
-@media (max-width: 700px){
-.left-menu ,.content,nav.navbar{
-    margin: 0 0!important;
-}
-
-@media (max-width: 700px){
-.content ,.left-menu,nav.navbar, .textareabg ,.datebg {
-width: 100%;
-}
+    }
