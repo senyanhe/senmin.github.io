@@ -82,7 +82,15 @@ h1,h2{font-size:13px;
 text-align:center;
 font-weight: normal;}
 
-.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification,.blog__tags{box-shadow: 1px 1px 4px 1px #c93d66!important;
+.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification{box-shadow: 1px 1px 4px 1px #c93d66!important;
+margin-bottom:50px;
+width:340px;
+border:1px solid #ff9bb8!important;
+border-radius:10px!important;
+background:url(https://i.imgur.com/ooyJHfC.png);
+background-color:#201a2430;}
+
+.blog__tags{box-shadow: 1px 1px 4px 1px #c93d66!important;
 margin-bottom:50px;
 width:340px;
 border:1px solid #ff9bb8!important;
@@ -168,43 +176,7 @@ text-decoration: unset;
 background:#201a24!important;}
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #ff9bb8!important;}
 
-#beon-fnplayer {
-    height: 16px;
-    width: 98%;
-    display: flex;
-    align-items: center;
-    background-color: #c93d66!important;
-    margin: 2px;
-    border-radius:5px;
-}
-#fnplayer-slider {
-    height: 10px;
-    background-color: #201a24!important;
-    flex-grow: 1;
-    position: relative;
-    border-radius:5px;
-}
-#fnplayer-stop{background-color: #201a24!important;}
-#fnplayer-volume-mask {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 30px 0 0;
-    border-color: #201a24 transparent transparent transparent!important;
-    position: absolute;
-}
-#fnplayer-play {
-    border: 0;
-    background: transparent;
-    box-sizing: border-box;
-    width: 0;
-    height: 10px;
-    border-color: transparent transparent transparent #201a24!important;
-    transition: 100ms all ease;
-    cursor: pointer;
-    border-style: solid;
-    border-width: 5px 0 5px 10px;
-}
+
 @media (max-width: 1024px) {.py-4,.left-menu,.content,.comment-content,.post-content,.textareabg,.datebg  {
 width: 100%;
 margin: 0 0!important;
