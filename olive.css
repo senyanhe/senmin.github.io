@@ -118,6 +118,32 @@ text-decoration: unset;
 text-decoration: unset;
 }
 
+::-webkit-scrollbar{
+
+width: 5px;
+position: fixed;
+right: 10px;}
+
+.left-menu-text p{padding:0px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 10px;
+background-color: #201a24}
+
+::-webkit-scrollbar-thumb {border-radius: 10px;
+background: #b09a0250 !important;
+}
+
+.avatar-select-label {
+    border: 4px solid #b09a02;
+}
+.avatar-select-label {
+    border: 4px solid #b09a02;
+}
+.avatar-select-label-selected {
+    border: 4px solid #808080!important;
+}
 @media (max-width: 1024px) {.py-4,.left-menu,.content,.comment-content,.post-content,.textareabg,.datebg,.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification,.blog__tags {
 width: 100%;
 margin: 0 0!important;
