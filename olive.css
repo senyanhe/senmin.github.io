@@ -1,0 +1,126 @@
+body{background: url(https://i.imgur.com/EkKGbA7.png);}
+
+a,div,td,.pagination-goto{color:#b09a02!important;}
+
+.post-avatar {
+    display: table;
+    width: 1px;
+    float: left;
+    margin-right: 5px;
+margin-left: 5px;
+}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title {font-size: 20px;
+ text-decoration: none;}
+.post-title-date {font-size: 0.7rem;
+color: gray;
+padding-left: 0px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+span[data-target="#deleteconfirmmodal"]{color:#b09a02!important;}
+
+.comment-content {border-top:1px dashed #b09a02;
+border-bottom:1px dashed #b09a02;}
+.post-content {border-bottom:1px solid #b09a02;}
+
+.content{width:55%;
+border-top:18px solid #b09a02;
+border-bottom:18px solid #b09a02;
+margin-left:8%;
+background:#000;
+border-left:1px dashed #b09a02;
+border-right:1px dashed #b09a02;}
+
+.left-menu{min-width:300px;
+margin-left:5%;
+border:none!important;}
+
+.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification,.blog__tags{background: url(https://i.imgur.com/KkKKrwm.png);
+margin-bottom:50px;
+border:1px dashed #b09a02;}
+
+h3.left-menu-text {font-size:15px;
+text-align:center;
+border-bottom:6px solid #000;
+background:#b09a02!important;
+}
+.datebg {
+border-top:1px dashed #b09a02;
+border-bottom:1px dashed #b09a02;
+font-size:13px;
+text-align:center;
+font-weight: normal;
+text-transform: lowercase !important;}
+
+input{border:1px dashed #b09a02;
+margin: 5px 5px 5px;
+background:linear-gradient(to left,#010101 ,#b09a02)!important;
+color:#fff;}
+form.messageform select{border:1px dashed #b09a02;
+margin: 5px 5px 5px;
+background:linear-gradient(to left,#010101 ,#b09a02)!important;
+color:#fff;}
+
+form.messageform option{background:#000;
+color:#fff;}
+
+.textareabg{text-align:center;
+background:transparent;
+margin-left:0!important;
+padding:5px;}
+
+.alert-success,.modal-content{background: url(https://i.imgur.com/KkKKrwm.png);
+border:1px dashed #b09a02;}
+
+.btn-primary,.btn-secondary{border:1px dashed #b09a02!important;
+background:linear-gradient(to left,#010101 ,#b09a02)!important;
+color:#fff!important;}
+
+.modal-header{
+border-bottom:1px dashed #b09a02!important;}
+.modal-footer {
+border-top:1px dashed #b09a02!important;}
+
+nav.navbar{background: url(https://i.imgur.com/KkKKrwm.png);
+border-bottom:1px dashed #b09a02;}
+
+.menu__box{border-left: 1px dashed #b09a02!important;
+background:#000!important;}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #b09a02!important;}
+
+nav.navbar a:hover{
+text-decoration: unset;
+}
+.navbar-brand:hover {
+text-decoration: unset;
+}
+.left-menu a:hover {
+text-decoration: unset;
+}
+.post-content a:hover {
+text-decoration: unset;
+}
+.comment-content a:hover {
+text-decoration: unset;
+}
+span[data-target="#deleteconfirmmodal"]:hover {
+text-decoration: unset;
+}
+.crumbs a:hover {
+text-decoration: unset;
+}
+
+@media (max-width: 1024px) {.py-4,.left-menu,.content,.comment-content,.post-content,.textareabg,.datebg,.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification,.blog__tags {
+width: 100%;
+margin: 0 0!important;
+}
+.left-menu{position:relative !important;
+    }
