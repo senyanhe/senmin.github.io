@@ -39,7 +39,8 @@ border: none!important;}
 
 h3.left-menu-text{background:transparent!important;}
 
-.left-menu{width:30%;
+.left-menu{min-width:400px;
+    max-width:400px;
 height: 650px;
 overflow: auto;
 border: 1px solid #fff;
