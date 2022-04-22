@@ -49,7 +49,7 @@ margin-left: 20px !important;
 }
 .left-menu{background: url(https://images.vfl.ru/ii/1603568785/c24a78a1/32046053.png)no-repeat;
 background-position:center;
-background-size:100%; }
+background-size:cover; }
 
 ::-webkit-scrollbar{
 
