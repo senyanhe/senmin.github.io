@@ -28,7 +28,6 @@ margin-left:5%;
 width:60%;}
 body { background: #000;}
 a,div,td { color: #fff !important;
-text-transform: uppercase !important; 
 text-decoration: none!important; }
 
 
@@ -36,7 +35,7 @@ nav.navbar{background:url(https://images.vfl.ru/ii/1603540937/195b7a94/32042361.
 background-position: -20px 5px !important; 
 background-size:10% !important;
 border-radius:5px;
-border: 1px solid #fff;}
+border: none!important;}
 
 h3.left-menu-text{background:transparent!important;}
 
@@ -69,8 +68,6 @@ background: #000 !important;
 .post-content,.comment-content,.textareabg{ background: #000;
 border-radius:5px;
 border: 1px solid #fff;}
-
-.pc-menu a{font-size:9px;}
 
 .alert-success {background-color:#000!important;}
 
