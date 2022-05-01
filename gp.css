@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+a,div,td{color:#000!important;}
+a,div,td{text-decoration: none!important;}
+.post-avatar {display: table;
+width: 1px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title-date {font-size: 0.7rem;
+color: gray;
+padding-left: 0px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+
+nav.navbar{
+background:#ff8d8c;
+height: 240px!important;
+position: static !important;
+box-shadow: none !important;
+background-size: cover;
+background-position: top;
+background-repeat: repeat-x;
+background-attachment: scroll;}
+nav.navbar a{color:#FFF!important;}
+nav.navbar td{color:#FFF!important;}
+
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;}
+
+.navbar-brand{font-family: 'Water Brush', cursive;
+font-size:60px;}
+
+.left-menu h3 {background:#494748!important;
+font-size:30px;
+font-family: 'Comforter Brush', cursive;
+text-align:center;}
+
+div.left-menu{border-radius:40px;
+background:#fff;
+margin-left:2%;
+border:none!important;
+margin-top: -150px;
+box-shadow: 0px 0px 8px 0px #00000050;}
+
+div.crumbs {
+    float: right;
+    width: 50%;
+  margin-top: 0px; 
+ margin-bottom: 0px; 
+}
+
+[style="background-color: rgb(118, 174, 49);"]{height:60px!important}
+
+.content{width:60%;
+margin-left:5%;}
+
+.post-content,.comment-content{background:#fff;
+box-shadow: 0px 0px 8px 0px #00000050;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #e18e8f}
+
+::-webkit-scrollbar-thumb {
+background: #fff !important;
+}
+
+.post-title {display:block;
+ text-align: center;
+background-color:#494748;
+color:#ff8c8f!important;
+transition: background-color 1s ease 0s;}
+[style="margin-left: 5px;"]{margin-left:0px!important;}
+
+.post-title:hover{background-color:#ff8c8f;
+transition: background-color 1s ease 0s;
+color:#494748!important;}
+
+li {list-style-type: none;}
+
+[placeholder="Поиск по дневнику"]{position: absolute;
+  top: 15px;
+border:1px solid #fff;
+ background-color: #ff8d8c;
+  left:38%;
+width:20%;
+text-align:center;
+border-radius: 5px 5px 5px 5px;}
+
+[value="Поиск"]{position: absolute;
+  top: 15px;
+  left: 56%;
+border-radius: 5px 5px 5px 5px;
+ background-color: #4a4849;
+border:1px solid #fff;
+color:#ff8d8c!important;
+text-align:center;}
+
+span[data-target="#deleteconfirmmodal"]{color:#ff8d8c!important;}
+span[data-target="#deleteconfirmmodal"]:hover{text-decoration: none!important;}
+
+.comment-content,.post-content,.textareabg {margin: 15px 15px 20px;}
+
+.comment-box__message-partial {min-height: 1rem;
+background:#ff8d8c;
+    text-align: center;}
+
+.textareabg {background:#49474850;
+text-align:center;
+box-shadow: 0px 0px 8px 0px #00000050;}
+
+.alert-success {background:#494748;
+border: #fff solid 1px;
+color:#ff8d8c!important;
+text-align:center;}
+
+.btn-primary,.btn-secondary{ background: #494748 !important;
+border: none;}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #fff!important;}
+
+.menu__box {
+    background-color: #494748;
+}
+
+@media (max-width: 700px) {.py-4,.left-menu,.content,.textareabg,.crumbs{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content{margin-left: 0!important;
+width: 100%;
+margin-right: 0!important;}
+
+div#app{padding: 0 0!important;}
+
+.left-menu{position:relative !important;}
+.navbar-brand{font-family: 'Water Brush', cursive;
+font-size:30px;}
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;}
+
+nav.navbar{
+height: 140px!important;}
+
+[placeholder="Поиск по дневнику"], [value="Поиск"]{position: static!important;
+width:100%;
+border-radius: 4px;
+padding:0!important;
+margin:0!important;}
