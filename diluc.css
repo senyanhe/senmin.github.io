@@ -1,0 +1,164 @@
+a,div,td{text-decoration: none!important;}
+.post-avatar {display: table;
+width: 1px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title-date {font-size: 0.7rem;
+color: gray;
+padding-left: 0px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{color:#b23134!important;}
+
+body{ background:url(https://i.imgur.com/nf7XqPb.png) no-repeat left center fixed;
+background-size:cover;}
+
+.content{background-color:#050505!important;
+background:url(https://i.imgur.com/FgIRHFR.png) no-repeat left top scroll;
+background-size:contain;
+width:60%;
+border-left:1px dashed #310303;
+border-right:1px dashed #310303;
+padding-top:30%;}
+
+.left-menu{margin-top:30%;
+background-color:#050505!important;
+margin-right:0!important;
+border-top:0px!important;
+border-right:0px!important;
+border-bottom:1px dashed #310303!important;
+border-left: 15px solid #310303!important;
+    transition: .5s;
+width:0.5%;
+margin-left:20%;
+ overflow: hidden!important;}
+
+div.left-menu{margin-bottom: 0;}
+
+.left-menu:hover{
+width:20%;
+    transition: 1s;
+}
+
+.left-menu:before{content: "MENU"!important;
+position:absolute;
+margin-left:-90px;
+margin-top:35px;
+ transform: rotate(-90deg);
+font-size:15px!important;
+letter-spacing: 20px;
+}
+
+nav.navbar{background:url(https://i.imgur.com/562aPQL.png) no-repeat left center scroll;
+background-size:cover;
+border-bottom:1px dashed #310303;}
+
+div.crumbs{background-color:#050505;
+border-bottom:1px dashed #310303;
+border-top:1px dashed #310303;
+margin-top:0px;
+margin-bottom:0px;}
+
+h3.left-menu-text {background-color:#310303!important;}
+
+.comment-content,.post-content,.textareabg {margin: 15px 15px 20px;
+background:url(https://i.imgur.com/eYo8Va3.png) no-repeat left center fixed;
+background-size:cover;
+border-bottom:1px dashed #310303;
+border-top:1px dashed #310303;}
+
+.comment-box__message-partial {min-height: 1rem;
+    text-align: center;}
+
+.textareabg {background-color:#050505!important;
+text-align:center;}
+
+.alert-success {background-color:#050505;
+border:1px dashed #310303;
+text-align:center;}
+
+.btn-primary,.btn-secondary{ background: #310303 !important;
+border: none;}
+
+input{border:1px dashed #310303;
+margin: 5px 5px 5px;
+background: #050505 !important;
+color:#b23134;}
+form.messageform select{border:1px dashed #310303;
+margin: 5px 5px 5px;
+background: #050505 !important;
+color:#b23134;}
+
+form.messageform option{background: #050505 !important;
+color:#b23134;}
+
+.modal-header{
+border-bottom:1px dashed #310303!important;}
+.modal-footer {
+border-top:1px dashed #310303!important;}
+
+.modal-content{border:1px dashed #310303;
+background: #050505 !important;
+color:#b23134;}
+
+.datebg {text-transform: uppercase;
+font-size:9px;
+letter-spacing: 10px;
+text-align:center;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #000}
+
+::-webkit-scrollbar-thumb {
+background: #310303 !important;
+}
+
+.avatar-select-label {
+    border: 4px solid #050505;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #310303!important;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #b23134!important;}
+
+.menu__box {
+    background-color: #050505;
+}
+
+@media (max-width: 700px) {.py-4,.left-menu,.content,.textareabg,.crumbs{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content{margin-left: 0!important;
+width: 100%;
+margin-right: 0!important;}
+
+div#app{padding: 0 0!important;}
+
+.left-menu{position:relative !important;
+border-left: 1px solid #310303!important;}
+
+.left-menu:before{display:none;
+}}
