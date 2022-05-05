@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#c958ec!important;}
+.post-avatar {display: table;
+width: 1px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title-date {font-size: 0.7rem;
+color: gray;
+padding-left: 0px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg{text-align:center;}
+
+html{margin-top:40%;
+background:url(https://i.imgur.com/dt4waKC.png) no-repeat left center fixed;
+background-size:100%;}
+
+body{background:url(https://i.imgur.com/P1AJNtv.png) no-repeat left center fixed;
+background-size:cover;}
+
+div#app {padding-right: 14%;
+padding-left: 16.5%;}
+
+nav.navbar{background:url(https://i.imgur.com/6DKfNF2.png) no-repeat left center scroll;
+background-size:cover;
+height:150px;
+border-top:1px solid #c958ec;
+border-bottom:1px solid #c958ec;
+}
+
+
+.py-4,.crumbs,nav.navbar{border-left:1px solid #c958ec;
+border-right:1px solid #c958ec;}
+.py-4{border-bottom:1px solid #c958ec;
+background:url(https://i.imgur.com/7oYrFz7.png)no-repeat fixed;
+background-size:;}
+
+div.crumbs{
+margin-top:0px;
+margin-bottom:0px;
+border-bottom:1px solid #c958ec;}
+
+div.left-menu{border:none;
+margin-bottom: 0;}
+.left-menu{border-right:1px solid #c958ec!important;}
+
+h3.left-menu-text {background:#c958ec!important;
+font-size:10px;
+text-align:center;}
+
+.pc-menu{display:none;}
+
+.hamburger-menu {
+display: block !important;
+}
+
+.navbar-brand{font-size:0px;
+text-transform:uppercase;}
+
+.navbar-brand:before{content:'ビオン';
+font-family: 'DotGothic16', sans-serif;
+font-size:60px;
+opacity:0.7;
+margin-left:15%;
+margin-top:15%;
+letter-spacing: 40px;}
+
+.menu__btn {top:5%;
+left:50%;
+position: absolute;
+width: 53px;
+}
+
+.menu__btn:before{content: "MENU"!important;
+position:absolute;
+top:2px;
+left:-20%;
+font-size:15px!important;
+letter-spacing: 10px;}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after{background-color:#c958ec!important;
+opacity:0.5;}
+
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comment-content,.post-content,.textareabg {margin: 15px 15px 20px;
+background:url(https://i.imgur.com/yO2CSmA.png);
+border: 1px dotted #c958ec50;}
+
+.left-menu{font-size:13px;}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]{font-size:0px;}
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before {
+content: 'DOWN';
+margin-left:30%;
+font-size:15px!important;
+letter-spacing: 10px;}
+
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+text-shadow: unset !important;
+position:fixed;
+bottom:0;
+right:0;
+font-size:0px;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {content: 'UP';
+font-size:15px!important;
+letter-spacing: 10px;}
+
+.alert-success,.modal-content{border:1px solid #c958ec;
+background:url(https://i.imgur.com/ueky3s7.png)no-repeat;
+background-size:cover;}
+
+.modal-header{
+border-bottom:1px solid #c958ec!important;}
+.modal-footer {
+border-top:1px solid #c958ec!important;}
+
+.close:not(:disabled):not(.disabled) {text-shadow: unset !important;
+color:#c958ec!important;
+opacity: inherit;}
+
+input{border:1px solid #c958ec;
+margin: 5px 5px 5px;
+background:url(https://i.imgur.com/7oYrFz7.png)no-repeat fixed;
+color:#c958ec!important;}
+
+form.messageform select{border:1px solid #c958ec;
+background:url(https://i.imgur.com/7oYrFz7.png)no-repeat fixed;
+color:#c958ec!important;}
+
+form.messageform option{background:#000;
+color:#c958ec;}
+
+.menu__box{border-left: 1px solid #c958ec!important;
+background:url(https://i.imgur.com/P1AJNtv.png) no-repeat left center fixed;
+}
+
+.menu__item:hover {text-decoration: none;
+    background-color: #c958ec!important;
+color:#000!important;}
+
+input:hover{
+background:url(https://i.imgur.com/shzg3D3.gif);}
+
+.post-title{transition: 3s;}
+.post-title:hover{letter-spacing: 10px;
+transition: 3s;}
+
+.datebg {text-align:right;
+font-size:10px;}
+
+.btn-primary,.btn-secondary{ background:#c958ec !important;
+border: none;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #000}
+
+::-webkit-scrollbar-thumb {
+background: #c958ec !important;
+}
+
+.avatar-select-label {
+    border: 4px solid #000;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #c958ec!important;
+}
+
+.quotation {border-left: 3px solid #c958ec;}
+
+
+a:hover{transition: 0.2s;
+text-shadow: 0 0 3px #ffffff99;}
+
+@media (max-width: 700px) {.py-4,.left-menu,.content,.textareabg,.crumbs{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+
+.comment-content,.post-content{margin-left: 0!important;
+margin-right: 0!important;}
+
+
+div#app{padding: 0 0!important;}
+
+.left-menu{position:relative !important;
+margin-bottom: auto;}
+
+html{margin-top:0;}
+
+
+nav.navbar{background-size:400%!important;
+background-position:top center;
+height:95px!important; }
+
+
+.menu__box{
+background-size:cover!important;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+position:relative!important;}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+}
+ 
+
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    flex-direction: row;}
+
+.navbar-brand{
+margin: 0 0!important;}
+
+.navbar-brand:before{font-size:20px;
+margin: 0 0!important;}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before{margin: 0 0!important;
+letter-spacing: 0px;}
+
+.menu__btn:before{display:none;}
