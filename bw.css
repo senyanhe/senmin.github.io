@@ -123,7 +123,7 @@ background: #000 !important;
 ul {list-style: circle outside;}
 
 @media (max-width: 1024px) {.py-4,.left-menu,.content,.comment-content,.post-content {
-width: auto;
+width:100%!important;
 margin: 0 0!important;
 }
 .left-menu{position:relative !important;
