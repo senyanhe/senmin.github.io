@@ -1,0 +1,145 @@
+a,div,td,span[data-target="#deleteconfirmmodal"],.pagination-goto {text-decoration: none!important;
+color:#255b59!important;}
+.post-avatar {display: table;
+width: 1px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg {text-align:center;}
+
+
+body{background: url(https://i.imgur.com/dswCNn6.png) no-repeat left center fixed;
+background-size:cover;}
+
+.comment-content,.post-content,.textareabg{
+background:url(https://i.imgur.com/15iLYFf.png) no-repeat left center fixed;
+background-size:cover;
+border-top: 1px dashed #FFEA5C;
+border-right: 1px dashed #FFEA5C;
+border-bottom: 1px dashed #7EF3D1;
+border-left: 1px dashed #7EF3D1;}
+
+.content{width:65%;
+margin-left:5%;}
+
+.left-menu{margin-left:3%;
+background:#ffffff10;
+border-top:none!important;
+border-right: 1px dashed #FFEA5C!important;
+border-bottom: 1px dashed #7EF3D1!important;
+border-left: 1px dashed #7EF3D1!important;}
+
+nav.navbar,.crumbs {background:url(https://i.imgur.com/15iLYFf.png) no-repeat left center fixed;
+background-size:cover;
+border-top: 1px dashed #FFEA5C;
+border-right: 1px dashed #FFEA5C;
+border-bottom: 1px dashed #7EF3D1;
+border-left: 1px dashed #7EF3D1;}
+
+h3.left-menu-text{background:url(https://i.imgur.com/15iLYFf.png) no-repeat left center fixed;
+background-size:cover;
+border-top: 1px dashed #FFEA5C;
+border-bottom: 1px dashed #7EF3D1;}
+
+.comment-content,.post-content,.textareabg{margin: 10px 10px 20px}
+
+.post-title {background:#fbc02698;
+display:block!important;
+text-align:center;
+border-bottom: 1px dashed #FFEA5C;
+color:#7bfcf7!important;}
+[style="margin-left: 5px;"]{margin-left:0px!important;}
+
+.post-title-user:after {content: '111';
+background:url(https://i.imgur.com/Lwkwdxy.png) no-repeat;
+background-size: cover;
+position:absolute;
+width:16px;
+height: 16px;
+font-size:0px;}
+
+.flag{display:none;}
+
+.modal-header{
+border-bottom: 1px dashed #FFEA5C!important;}
+.modal-footer {
+border-top: 1px dashed #FFEA5C!important;}
+
+.modal-content{border:1px dashed #FFEA5C!important;
+background:url(https://i.imgur.com/15iLYFf.png) no-repeat left center fixed!important;
+background-size:cover!important;}
+
+.btn-primary,.btn-secondary{ background: #FFEA5C!important;
+border: none;
+color:#255b59!important;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #7EF3D1;}
+
+::-webkit-scrollbar-thumb {
+background: #FFEA5C !important;
+}
+
+.avatar-select-label {
+    border: 4px solid #FFEA5C;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #7EF3D1!important;
+}
+
+input{background:linear-gradient( #7EF3D1,  #FFEA5C);
+border-radius: 5px;
+ border-top: 1px dashed #FFEA5C;
+border-right: 1px dashed #FFEA5C;
+border-bottom: 1px dashed #7EF3D1;
+border-left: 1px dashed #7EF3D1;}
+
+input:hover{background:linear-gradient(#FFEA5C, #7EF3D1);
+border-top: 1px dashed #FFEA5C;
+border-right: 1px dashed #FFEA5C;
+border-bottom: 1px dashed #7EF3D1;
+border-left: 1px dashed #7EF3D1;}
+
+form.messageform select{background:linear-gradient( #7EF3D1,  #FFEA5C);
+border-radius: 5px;
+border-top: 1px dashed #FFEA5C;
+border-right: 1px dashed #FFEA5C;
+border-bottom: 1px dashed #7EF3D1;
+border-left: 1px dashed #7EF3D1; }
+
+
+form.messageform option{background:#FFEA5C;}
+
+.menu__box{border-left: 1px solid #7EF3D1!important;
+background: url(https://i.imgur.com/dswCNn6.png) no-repeat fixed;
+}
+
+@media (max-width: 1024px) {.left-menu,.content,.py-4{
+width: 100%!important;
+margin: 0 0!important;
+}
+.left-menu{position:relative !important;
+height: auto;}
+.comment-content,.post-content{margin-left: 0!important;
+width: 100%!important;
+margin-right: 0!important;}
