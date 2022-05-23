@@ -1,0 +1,162 @@
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#4d151d!important;}
+.post-avatar {display: table;
+width: 1px;
+margin-top: 5px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title-date {font-size: 0.7rem;
+color: gray;
+padding-left: 0px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg{text-align:center;
+background:transparent;}
+
+body{background:url(https://i.imgur.com/LhRl8YE.png)no-repeat left center fixed;}
+
+.py-4{width:70%;
+border:1px solid #4d151d!important;
+margin-left:15%;
+}
+
+.left-menu{width:30%;
+font-size:13px;}
+
+.py-4{border-radius: 0px 100px 0px 100px;
+overflow: hidden;}
+
+h3.left-menu-text {background:transparent!important;
+font-size:15px;
+color:#4d151d!important;}
+h3.left-menu-text{border-bottom:1px solid #4d151d;
+border-radius: 0px 0px 100px 0px;}
+
+.user:before ,[src="/i/user.png"]{
+    content: url(https://i.imgur.com/6Shjleq.png);
+    margin-right: 1px;
+}
+
+[src="/i/blog.png"]{
+    content: url(https://i.imgur.com/wcW5udO.png);}
+
+[src="/i/offline.png"],[src="//beon.fun/i/offline.png"]{    content: url(https://i.imgur.com/9NKgCA0.png);}
+
+[style="display: flex; justify-content: space-between;"]{
+    display: flex;
+    flex-direction: column;}
+
+[class="nextsibling text-right col-md-6"]{padding:0px;
+text-align:center!important;}
+
+.comment-content,.post-content,.textareabg{margin: 10px 10px 20px}
+
+.comment-content,.post-content{background-color: #00000010!important;
+background:url(https://i.imgur.com/Atbt7oi.gif) repeat-x fixed;
+border: 1px solid #ffffff50;
+border-radius: 10px;}
+
+main.py-4{padding-top:32.6%!important;
+background:url(https://i.imgur.com/FMbdasf.gif) no-repeat left top scroll;
+background-size:contain;
+background-color:#ffc5c9;}
+
+div.left-menu{margin-bottom: 0;
+background-color: #00000010!important;
+background:url(https://i.imgur.com/Atbt7oi.gif) repeat-x fixed;
+border-right:1px solid #4d151d;
+border-left:none;
+border-top:none;
+border-bottom:none;}
+
+.bg-white {
+    background-color: #ffffff90;
+}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #e18e8f}
+
+::-webkit-scrollbar-thumb {
+background: #fff !important;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #e18e8f!important;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #b23134!important;}
+
+.menu__box {background-color: #ffc5c9;}
+
+.datebg {text-transform: uppercase;
+font-size:9px;
+letter-spacing: 4px;
+text-align:right;}
+
+input{background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
+border: 1px solid #ffffff50;
+border-radius: 5px;
+margin: 5px 5px 5px;
+color:#fff }
+
+input:hover{background:linear-gradient(rgb(255,209,209), rgb(241,161,163));
+color:#cc524b; }
+
+form.messageform select{background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
+border: 1px solid #ffffff50;
+border-radius: 5px;
+color:#cc524b }
+
+form.messageform option{background:rgb(241,161,163);
+color:#cc524b }
+
+.alert-success {background:linear-gradient(rgb(241,161,163), rgb(255,209,209));
+border: 1px solid #ffffff50;
+border-radius: 5px;
+color:#cc524b; 
+text-align:center;}
+
+.btn-primary,.btn-secondary{ background:linear-gradient(rgb(241,161,163), rgb(255,209,209))!important;
+border: 1px solid #ffffff50!important;
+border-radius: 5px!important;
+color:#cc524b!important; 
+text-align:center;}
+
+.post-avatar img{border-radius: 0px 30px 0px 30px;
+border: 1px solid #ffffff50;}
+
+@media (max-width: 700px) {.py-4,.left-menu,.content,.textareabg,.crumbs{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content{margin-left: 0!important;
+width: 100%;
+margin-right: 0!important;}
+
+div#app{padding: 0 0!important;}
+
+.left-menu{position:relative !important;
+margin-top:14.4%!important;
+border:none!important;
+border-right: 0px!important;}
+h3.left-menu-text{text-align:center;
+border:none;}}
