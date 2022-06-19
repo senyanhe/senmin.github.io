@@ -135,7 +135,7 @@ background: #caac7a !important;
 div.left-menu{margin-bottom: 0;
 background-color:#18243490;
 border-right:1px solid #f4d59c;}
-.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification,.blog__tags{border-bottom:1px solid #f4d59c;}
+.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification,.blog__tags,.community__moders,.community__members{border-bottom:1px solid #f4d59c;}
 
 .alert-success,.modal-content{background:#152c4a;
 border:1px solid #f4d59c;}
