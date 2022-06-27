@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#f8866e!important;
+ transition: .5s;}
+.post-avatar {display: table;
+width: 1px;
+margin-top: 5px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;}
+.post-title-date {font-size: 0.7rem;
+color:#bddee7!important;
+padding-left: 0px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg{text-align:center;
+background:transparent;}
+.comment-content,.post-content,.textareabg{margin: 10px 10px 20px}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+
+a:hover{text-decoration: line-through!important;
+text-decoration-style: double!important;
+ transition: .5s;}
+
+
+body{background: url(https://i.imgur.com/RciFNBV.png);}
+
+.content{margin-left:10%;
+width:60%;}
+
+.post-content,.comment-content{border: 10px solid peachpuff;
+background-color: #fff;
+border-block-width: 25px;
+border-radius: 15px;
+box-shadow: 2px 1px 0px 4px #fa8068;}
+
+.post-content:before{content:'хуйнюшка';
+position:absolute;
+width:100px;
+margin-top:-20px;
+height:17px;
+font-size:0px;
+background:url(https://i.imgur.com/4Cl51ed.png)no-repeat;
+background-size:70% }
+
+.datebg {border: 1px solid #fa8068;
+background-color: #fff;
+margin: auto;
+font-size:12px;
+font-family: 'Press Start 2P', cursive;
+max-width: fit-content;
+border-radius: 15px;}
+
+div.left-menu{border: 10px solid peachpuff;
+background-color: peachpuff;
+text-transform: lowercase;
+border-block-width: 25px;
+border-radius: 15px;
+box-shadow: 2px 1px 0px 4px #fa8068;}
+
+h3.left-menu-text {border: 1px solid #fa8068;
+background-color: #fff!important;
+color:#f8866e!important;
+font-size:12px;
+text-align:center;
+font-family: 'Press Start 2P', cursive;
+border-radius: 15px;
+text-transform: uppercase;}
+
+.right-menu-text {font-family: 'Press Start 2P', cursive;
+    text-align: center;
+font-size:12px;
+text-transform: uppercase;
+    padding-right: 5px;}
+
+div.left-menu-text{margin-bottom: 10px;
+background-color: #fff!important;
+border: 3px double #fa8068!important;}
+
+nav.navbar{
+background-color: peachpuff;
+border-block-width: 25px;
+border-radius: 0px 0px 15px 15px;
+box-shadow: 2px 1px 0px 4px #fa8068!important;}
+
+.pc-menu{background-color: #fff!important;
+border: 3px double #fa8068!important;
+border-radius: 5px;}
+
+.navbar-brand{font-family: 'Press Start 2P', cursive;
+font-size:10px;
+text-transform: uppercase;}
+
+.navbar-brand:before{content:'хуйюшка';
+width:60px;
+margin-left:70px;
+margin-top:-20px;
+position:absolute;
+height:60px;
+font-size:0px;
+background:url(https://i.imgur.com/DnjGkgt.png)no-repeat center;
+background-size:50%;}
+
+.quotation {border-left: 6px groove #f8866e;}
+
+input{border:1px solid #f8866e;
+margin: 5px 5px 5px;
+background: #fff;
+color:#f8866e;}
+
+input:hover{background: #f8866e!important;
+color:#fff!important;
+ transition: .5s;}
+
+.btn-primary,.btn-secondary{border:1px solid #f8866e!important;
+background:transparent !important;
+color:#f8866e!important;}
+
+textarea {border:1px solid #f8866e;}
+
+form.messageform select{border:1px solid #f8866e;
+margin: 5px 5px 5px;
+background: #fff;
+color:#f8866e;}
+
+form.messageform option{background: #f8866e!important;
+color:#fff!important;}
+
+.alert-success{border:1px solid #f8866e;
+background: #fff;
+color:#f8866e!important;}
+
+.modal-content{border:1px solid #f8866e;
+color:#f8866e!important;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #fff}
+
+::-webkit-scrollbar-thumb {border-radius: 2px;
+background: #f8866e !important;}
+
+.avatar-select-label {
+    border: 4px solid #fa8068!;}
+
+.avatar-select-label-selected {
+    border: 4px solid #fa8068!important;}
+
+.menu__box{border-left: 1px dashed #fa8068!important;
+background:#fff!important;}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #fa8068!important;}
+
+@media (max-width: 700px) {.py-4,.left-menu,.content,.textareabg,.crumbs,.post-title-user{
+width: 100%;
+margin: 0 0!important;
+}
+.comment-content,.post-content{margin-left: 0!important;
+width: 100%;
+margin-right: 0!important;}
