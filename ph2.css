@@ -114,6 +114,7 @@ border-bottom: 1px solid #242424;
 border-right: 1px solid #242424;}
 .blog__last-comments{    width: 100%;
 text-align:center;
+    border-right: 1px solid #242424;
 border-bottom: 1px solid #242424;}
 
 div.left-menu {
