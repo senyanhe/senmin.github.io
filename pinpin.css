@@ -26,7 +26,7 @@ margin-bottom:50px;}
 
 .left-menu{margin-top:100px;
 border: #cc524b dotted 1px!important;
-overflow: auto;
+overflow: auto!important;
 margin-left:93px;
 position:absolute;
 text-align:center;
