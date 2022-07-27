@@ -187,7 +187,8 @@ border-radius:0!important;
 .left-menu{position:relative !important;
 height: auto;}}
 
-@media{main.py-4{
-max-width: 1920px;
-margin: auto;
+@media{
+main.py-4{
+max-width: 1200px;
+margin: auto;}
 }
