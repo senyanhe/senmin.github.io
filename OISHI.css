@@ -1,0 +1,454 @@
+a,div,td,span[data-target="#deleteconfirmmodal"]{color:#fff!important;
+text-decoration: none!important;}
+
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size:17px;}
+.post-title-date {display:none;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg{text-align:center;
+background:transparent;}
+.comment-content,.post-content,.textareabg{margin: 10px 10px 20px}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+
+
+body{ background-color: rgba(0, 0, 0, 1) !important;
+background-image: url(https://i.imgur.com/llAkwzH.png), url(https://i.imgur.com/MoVahWE.png), url(https://i.imgur.com/dC60L2X.png), url(none) !important;
+background-size: auto , auto , auto , auto !important;
+background-position: center top, center bottom, center bottom, left top !important;
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat !important;
+background-attachment: scroll, fixed, fixed, scroll !important;}
+
+.content{width: 65%;
+margin-top:25%;
+margin-right:-0,2%;}
+
+.post-content:nth-child(2){
+    border-top-left-radius: 1px !important;
+    border-top-right-radius: 1px !important;
+    border-bottom-left-radius: 1px !important;
+    border-bottom-right-radius: 1px !important;
+    overflow: hidden;
+    box-shadow: px px 0px 10px rgba(255, 255, 255, 0) !important;
+    border-left: 10px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: 10px solid rgba(255, 255, 255, 0.1) !important;
+    border-top: 10px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.1) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url(https://i.imgur.com/9obtTCw.png), url(none), url(none), url(none) !important;
+    background-size: auto , auto , auto , auto !important;
+    background-position: center center, left top, left top, left top !important;
+    background-repeat: no-repeat, repeat, no-repeat, no-repeat !important;
+    background-attachment: scroll, scroll, scroll, scroll !important;}
+
+main.py-4 {display: flex;
+flex-direction: row-reverse;}
+
+div.left-menu{width:300px;
+margin-top:25%;
+margin-right: 1%;
+    border:none;}
+
+h3.left-menu-text {background-color:transparent!important;
+font-size:17px;
+text-transform: none;
+    padding-left: 20px;}
+
+.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__last-comments,.blog__iread,.left-menu__user-notification,.blog__tags,.community__moders,.community__members{text-transform: lowercase;
+margin-bottom:50px;
+padding:15px;
+  background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url(https://i.imgur.com/x4VN2HN.png), url(none), url(none), url(none) !important;
+    background-size: auto , auto , auto , auto !important;
+    background-position: left top, left top, left top, left top !important;
+    background-repeat: repeat, no-repeat, no-repeat, no-repeat !important;
+    background-attachment: scroll, scroll, scroll, scroll !important;}
+
+div.crumbs {margin-top: 0px;
+margin-bottom: 0px;}
+
+.post-text,.comment-text {padding: 10px;}
+
+.post-content{position: relative;}
+.post-content a.user.post-title-user {
+position: absolute;
+left: -110px;
+top: -33px;}
+
+.post-content .post-avatar{position: absolute;
+margin-left: -110px !important;
+top:-10px;}
+
+.post-content{border-left: 1px dashed rgba(255, 255, 255, 0.11);
+    border-right: 1px dashed rgba(255, 255, 255, 0.11);
+    border-top: 10px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.07);
+    background-color: rgba(0, 0, 0, 0.67);}
+
+.comment-content{background-color: rgba(0, 0, 0, 0.67);
+border: 1px dashed rgba(255, 255, 255, 0.1);}
+
+.comment-content{position: relative;
+min-height: 130px;}
+
+.comment-content a.user.post-title-user {
+position: absolute;
+left: -110px;
+top: -23px;}
+
+.comment-content .post-avatar{position: absolute;
+margin-left: -110px !important;
+top:-1px;}
+
+.textareabg{background-color: rgba(0, 0, 0, 0.82)}
+
+.user:before,.datebg,.comment-box h2,.flag,.comment-box__message-partial,.comment-content a[href^="#"],#footer,.postsiblings {display:none;}
+
+
+.tag_bar span{box-shadow: 0px 1px 2.55px 0.45px rgb(255 255 255 / 50%);
+border-radius: 3px;
+    display: inline-block;
+    height: 24px;
+    padding: 3px 5px;
+min-width: 28px;}
+
+.tag_bar{margin-bottom: 10px;}
+
+textarea{background:transparent;
+color:#fff;
+border-radius: 0px 0px 0px 10px;
+border:1px solid #ffffff50;}
+
+.avatar-select-list {margin-left: -6px;
+overflow: auto;
+margin-top:10px;
+width:100%;
+height:80px;}
+
+.avatar-select-list img {border-radius: 80px;
+width: 80px;
+height: 80px;
+object-fit: cover;}
+
+.avatar-select-label {margin-left: 10px;
+border: 4px solid #808080;
+margin-bottom:12px;}
+.avatar-select-label-selected {border: 4px solid #ffffff;}
+
+#messageform > div.textarea-wrapper,#app > main > div.content > div.textareabg > form > div.textarea-wrapper{flex-direction: column;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #FFFFFF50}
+
+::-webkit-scrollbar-thumb {
+background: #000 !important;}
+
+.comment-content .comment-base > div:last-child{
+position: absolute;
+bottom:0;
+float:left;
+left:5px;}
+
+.comment-box i.fas {box-shadow: 0px 1px 2.55px 0.45px rgb(255 255 255 / 50%);
+border-radius: 3px;
+display: inline-block;
+height: 20px;
+text-align: center;
+padding: 6px 6px;
+min-width: 23px;
+font-size: 10px;}
+
+div#app {
+padding-top: 65px;}
+
+.container {
+max-width: 100%;}
+
+.bg-white {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+z-index: 3;
+padding: 0px;
+background: black !important;}
+
+.container {padding: 0px;
+display: flex;
+flex-direction: column;}
+
+ul.navbar-nav.ml-auto {
+height: 0px;
+overflow: hidden;
+transition: 0.5s;
+transition-delay: 0.2s;}
+
+.bg-white:hover ul.navbar-nav.ml-auto {
+height: 50px;
+transition: 0.5s;
+transition-delay: 0.2s;}
+
+div#navbarSupportedContent {
+background: #8b8b8b;
+max-width: 100%;
+width: 100%;}
+
+ul.navbar-nav.ml-auto {
+margin: auto;}
+
+a.navbar-brand {
+color: #f8fafc !important;
+margin-right: auto !important;
+padding-left: 20px;}
+
+ul.navbar-nav.mr-auto {margin-right: unset!important;}
+
+[href="//im.beon.fun"]:before {content: "\f27a";
+position: absolute;
+top: 15px;
+font-size:20px;
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+left:77%;}
+
+[href="//beon.fun/p/favourites/"]:before {content: "\f005";
+position: absolute;
+top: 15px;
+font-size:20px;
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+left:80%;}
+
+[href="//beon.fun/search"]:before {content: "\f002";
+position: absolute;
+top: 15px;
+font-size:20px;
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+left:83%;}
+
+[href="//beon.fun/communities"]:before {content: "\f0c0";
+position: absolute;
+top:15px;
+font-size:20px;
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+left:86%;}
+
+[href="/design/disable"]:before {content: "\f53f";
+position: absolute;
+top:10px;
+font-size:20px;
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+left:89%;
+z-index:9999;}
+
+[placeholder="Поиск по дневнику"]{position: absolute;
+  top: 12px;
+text-transform: lowercase;
+  left:20%;
+width:15%;
+text-align:center;
+border-radius: 5px 0px 0px 5px;
+border:none;
+z-index:9999;}
+
+[value="Поиск"]{position: absolute;
+  top: 12px;
+text-transform: lowercase;
+  left: 35%;
+border-radius: 0px 5px 5px 0px;
+ background-color: #fff;
+border:none;
+text-align:center;
+z-index:9999;}
+
+[alt="Фото профиля OISHI"]{position:absolute;
+border-radius:100px;
+height:35px;
+width:35px;
+top: 6px;
+z-index:9999;
+left:92%;}
+
+.sign {max-height: 35px;
+overflow: hidden;}
+
+.comment-content,.post-content{margin-bottom:100px!important;}
+
+.crumbs{display:none;}
+
+.bg-white+.crumbs {display: unset;
+position: absolute;
+text-align: center;
+font-size: 0;
+left: 0;
+right: 0;
+margin: auto;
+width: 200px;
+top: 60px;}
+
+.pagination-goto {display:none;}
+
+.bg-white+.crumbs .pagination{display:none;}
+
+.pagination a {background: #00000070;
+padding-left: 9px;
+padding-right: 9px;
+border-radius: 0.4rem;
+font-size: 17px;
+border: 1px solid #ffffff70;
+margin-left:10px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.py-4+.crumbs {display: unset;
+position: absolute;
+font-size: 0;
+left: 760px;
+right: 0;
+margin: auto;
+width: 200px;
+top: 60px;}
+
+.py-4+.crumbs .pagination{position:fixed;
+bottom:20px;}
+
+span.pagination-goto+a { font-size: 0;}
+span.pagination-goto+a:before {
+font-size: 17px;
+content: '<';
+font-weight: bold;
+display: block;}
+
+.pagination a:last-child{ font-size: 0;}
+.pagination a:last-child:before {
+font-size: 17px;
+content: '>';
+font-weight: bold;
+display: block;}
+
+.crumbs a+span.crumb-item {
+display: none;}
+
+span.crumb-item, .crumbs [href="/"] {
+font-size: 20px;
+font-weight: bold;} 
+
+.py-4+.crumbs span.crumb-item, .py-4+.crumbs [href="/"] {font-size: 0;}
+
+.alert-success{border: 1px solid #ffffff70;
+background: #00000070;}
+
+div.row.w-100,[style="display: flex; justify-content: space-between;"],.post-opt {text-transform: lowercase;}
+
+.menu__box {background: #000000;
+border-left: 1px solid #ffffff70;}
+
+@media{
+div#app{
+max-width: 1200px;
+margin: auto;}
+}
+
+@media (max-width: 700px) {.py-4,.left-menu,.content,.textareabg,.crumbs{
+width: 100%!important;
+margin: 0 0!important;}
+
+.bg-white {position: relative;}
+.crumbs{display:block;}
+
+.comment-content,.post-content{
+margin-left:0!important;
+margin-right:0!important;
+width: 100%!important;}
+
+div#app{padding: 0 0!important;}
+
+.left-menu{position:relative !important;}
+
+.bg-white:hover ul.navbar-nav.ml-auto {
+    height: auto;}
+
+.container {padding: 0px;
+display: flex;
+flex-direction: row;}
+
+.post-content a.user.post-title-user {
+position: unset;
+left: auto;
+top:auto;}
+
+.post-content .post-avatar{position: unset;
+margin-left: auto!important;
+top:auto;}
+
+.comment-content a.user.post-title-user {
+position: unset;
+left: auto;
+top:auto;}
+
+.comment-content .post-avatar{position: unset;
+margin-left: auto!important;
+top:auto;}
+
+.py-4{flex-wrap: wrap;}
+
+[placeholder="Поиск по дневнику"],[value="Поиск"],[alt="Фото профиля OISHI"]{
+    position: unset;
+    top: auto;
+    text-transform: lowercase;
+    left: auto;
+    width: auto;
+    text-align: center;
+    border: none;}
+
+[href="/design/disable"]:before, [href="//im.beon.fun"]:before, [href="//beon.fun/p/favourites/"]:before, [href="//beon.fun/search"]:before, [href="//beon.fun/communities"]:before, [href="/design/disable"]:before{display:none;}
+
+a.navbar-brand {
+margin-right: 0!important;}
+
+.container {
+width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+margin-right: 0;
+margin-left: 0;}
+
+.crumbs {position: unset;
+width: 100%;
+ display: block;}
+
+.bg-white+.crumbs {
+    display: unset;
+    position: unset;}
+
+.bg-white+.crumbs .pagination {
+    display: unset;
+    position: unset;}
+
+ .pagination a{display:inline-block;
+margin-top: 5px;}
+span.pagination-goto+a:before,.pagination a:last-child:before {
+    display: inline-block;}
+
+.tag_bar span {box-shadow: unset;}
+
+.comment-content .comment-base > div:last-child { position: unset;}
