@@ -1,0 +1,90 @@
+a,div,td,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#000!important;
+ transition: .5s;}
+.post-avatar {display: table;
+width: 1px;
+margin-top: 5px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title-date {font-size: 0.7rem;
+color:gray!important;
+padding-left: 0px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg{text-align:center;
+background:transparent;}
+.comment-content,.post-content,.textareabg{margin: 10px 10px 20px}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+
+body{background-color: rgba(, , , 0) !important;
+    background-image: url(https://i.imgur.com/anOmj6g.png) , url() , url(https://i.imgur.com/d2YGOK9.png) , url(https://i.imgur.com/BfIdTxy.png) !important;
+    background-size: auto , auto , auto , auto !important;
+    background-position: center top, left top, center bottom, left top !important;
+    background-repeat: no-repeat, no-repeat, repeat-y, no-repeat !important;
+    background-attachment: scroll, scroll, fixed, fixed !important;}
+
+h3.left-menu-text {background-color:#000!important;}
+
+
+div#app{padding-left: 7px!important;
+padding-right: 8px!important;}
+
+.py-4{margin-top:30%;}
+
+.pagination{color: #fff!important;
+background: black;
+font-size: 11px;}
+.pagination a,.pagination-goto{color: #fff!important;}
+
+div.left-menu{border:1px solid #000;}
+.content{
+width:75%;
+margin-left:2%;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #000}
+
+::-webkit-scrollbar-thumb {
+background: #fff !important;}
+
+.avatar-select-label {
+    border: 4px solid #fff;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #000!important;
+}
+
+.post-avatar a[href="//lusiferin.beon.fun"]:before{
+content: "дижно под стол минет"!important;
+font-size:13px!important;
+color:#000!important;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center!important;
+    background: #fff708;}
+
+@media{
+div#app{
+max-width: 1200px;
+margin: auto;}
+}
