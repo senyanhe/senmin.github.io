@@ -46,8 +46,9 @@ background: black;
 font-size: 11px;}
 .pagination a,.pagination-goto{color: #fff!important;}
 
-div.left-menu{border:1px solid #000;}
-.content{
+div.left-menu{border:1px solid #000;
+background: #fff;}
+.content{background: #fff;
 width:75%;
 margin-left:2%;}
 
@@ -88,3 +89,22 @@ div#app{
 max-width: 1200px;
 margin: auto;}
 }
+
+@media (max-width: 700px) {.py-4,.left-menu,.content,.textareabg,.crumbs{
+width: 100%;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content{
+width: 100%;}
+
+div#app{padding: 0 0!important;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {display:none;}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before{display:none;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"],[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"] {
+font-size:14px;}
+
+.left-menu{position:relative !important;}
