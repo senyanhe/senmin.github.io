@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#7a7a7a!important;
+ transition: .5s;}
+.post-avatar {display: table;
+width: 1px;
+margin-top: 5px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.blog_total_counter{display:none;}
+#footer,[style="text-align: center"]{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title-date {font-size: 0.7rem;
+color:#ffd0d0!important;
+padding-left: 0px;}
+:focus {outline: none !important;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg{text-align:center;
+background:transparent;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+
+body{background: url(https://i.imgur.com/Exr5XIx.png)left bottom no-repeat fixed,url(https://i.imgur.com/60fXQ5e.png),url(https://i.imgur.com/AAGtxhk.png)no-repeat fixed top right;
+background-size:contain,auto;
+background-blend-mode: darken;
+background-position: -50px, 0 , 100%}
+
+
+
+.content{
+background:url(https://i.imgur.com/lxYcq6h.png)right top repeat,#fff;
+background-blend-mode: darken;
+width: 730px;
+border:#bf313f 1px solid;
+border-top:none;
+border-bottom:none;
+margin-right: -1px;
+background-size:70%;}
+
+div.crumbs{background-color: #fff;
+font-family: 'Rubik Marker Hatch', cursive;
+border:#bf313f 1px solid;
+margin-top:0;
+margin-bottom:0;}
+
+.post-content,.comment-content{
+background:url(https://i.imgur.com/f76oyCl.png)bottom left no-repeat,url(https://i.imgur.com/jrZ4D9b.png)bottom right no-repeat,url(https://i.imgur.com/VAhQme8.png)top left no-repeat, url(https://i.imgur.com/vHxSqlE.png)top right no-repeat; 
+background-size:10%;
+background-blend-mode: darken;
+background-color: #fff!important;
+margin-top:10px;
+position: relative;
+width: 600px;
+margin-left:auto!important;
+margin-right:auto!important;
+border:#bf313f 1px solid;}
+
+.post-title {font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 14px;
+    padding: 7px;
+    display: block;
+    background-color: #fff;
+    border: #bf313f 1px solid;
+    margin-top: 10px;
+    margin-right: 5px;}
+
+.post-content:before {
+top: 4px;
+right: 0;
+content: '';
+background: url(https://i.imgur.com/HIfrDGz.png) no-repeat center;
+position: absolute;
+width: 100px;
+height: 36px;
+background-size: 55%;}
+
+div.left-menu{margin-top:50px;
+width:19%;
+border:#bf313f 1px solid;
+border-top:none;
+border-left:none;
+background-color: #fff;
+margin-right: 5px;}
+
+.left-menu > div > h3{font-size: 14px;
+    padding: 7px;
+font-family: 'Rubik Marker Hatch', cursive;
+width: 258px;
+margin-top:-33px!important;
+margin-left:-17px!important;
+text-align:left;
+position: absolute!important;
+color:#bf313f!important;
+    background-color: #fff!important;
+    border: #bf313f 1px solid;}
+
+.left-menu > div > h3:before {
+top: -7px;
+    right: -17px;
+content: '';
+background: url(https://i.imgur.com/HIfrDGz.png) no-repeat center;
+position: absolute;
+width: 100px;
+height: 36px;
+background-size: 55%;}
+
+.left-menu>div{
+padding-bottom: 50px!important;}
+
+.left-menu > div > h3:after {position:absolute;
+content: '◢';
+font-size:25px;
+right:-3px;
+top:24px;
+transform: rotate(180deg);
+z-index:-1;}
+
+.bg-white{background:transparent;
+text-transform: lowercase!important;}
+.shadow-sm { box-shadow: unset !important;}
+
+.navbar>.container{
+    display: flex;
+    flex-direction: column;}
+
+li{list-style: none;}
+
+.datebg{font-size:10px;}
+
+.comment-box__message-partial,.datebg {text-align:center;
+text-transform: lowercase!important;}
+
+div.row.w-100,[style="display: flex; justify-content: space-between;"],.post-opt {text-transform: lowercase;
+font-size: 0.62rem;}
+
+[src="//beon.fun/i/offline.png"],.blog__gifts,.blog__iread,.blog__last-comments,[src="/i/user.png"],[src="/i/blog.png"],.user:before{display:none;}
+
+.comment-content .post-title-user {margin-left:5px;
+}
+
+[style="display: flex; justify-content: space-between;"]{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand{font-family: 'Rubik Marker Hatch', cursive;}
+
+.py-4 {margin: auto!important;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.alert-success,.modal-content{background:url(https://i.imgur.com/f76oyCl.png)bottom left no-repeat,url(https://i.imgur.com/jrZ4D9b.png)bottom right no-repeat,url(https://i.imgur.com/VAhQme8.png)top left no-repeat, url(https://i.imgur.com/vHxSqlE.png)top right no-repeat; 
+background-size:10%;
+background-blend-mode: darken;
+background-color: #fff!important;
+border:#bf313f 1px solid;}
+
+input{background: #fff;
+border:#bf313f 1px solid;
+margin-left:5px;
+margin-top:5px;
+color:#bf313f!important;
+box-shadow: 2px 2px #bf313f;}
+
+.btn-primary,.btn-secondary{background: #fff!important;
+border:#bf313f 1px solid!important;
+color:#bf313f!important;
+box-shadow: 2px 2px #bf313f!important;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #000}
+
+::-webkit-scrollbar-thumb {
+background: #bf313f!important;}
+
+.avatar-select-label-selected {
+    border: 4px solid #bf313f;
+}
+
+
+@media{
+div#app{
+max-width: 1200px;
+margin: auto;}
+
+.crumbs{margin: auto;
+max-width: 730px;}}
