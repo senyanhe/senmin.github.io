@@ -1,0 +1,306 @@
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#d91223!important;
+ transition: .5s;}
+.post-avatar {display: table;
+width: 1px;
+margin-top: 5px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+#footer,[style="text-align: center"]{display:none;}
+.avatar-select-list {height: 234px;}
+h2,h1 {text-align:center;
+font-size: 80%;}
+.post-title-date {font-size: 0.7rem;
+padding-left: 0px;}
+div#app {padding: 0px;}
+.comment-content,.post-content,.textareabg{margin: 10px 10px 20px}
+.blog_total_counter{display:none;}
+:focus {outline: none !important;}
+.post-content {min-height:162px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg{text-align:center;
+background:transparent;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+
+body{background: url(https://i.imgur.com/HSqfsKw.png)no-repeat  fixed top left,
+url(https://i.imgur.com/V9rcF4t.png)fixed;
+background-size:contain,25%;}
+
+.content{width:65%;
+background:#000;
+border-right:1px solid #b80f12;
+border-left:1px solid #b80f12;
+margin:auto;}
+
+[src="//beon.fun/i/offline.png"],.blog__gifts,.blog__iread,.blog__last-comments,[src="/i/user.png"],[src="/i/blog.png"],.user:before,.blog__read-me,.left-menu__friends,.left-menu__friends_offline,.left-menu__friends_online,.postsiblings{display:none;}
+
+div.left-menu{background:url(https://i.imgur.com/YLWqC2z.png) left center;
+border:1px solid #b80f12;
+border-top:none;
+margin-top:6%;}
+
+div.left-menu__user-notification.left-menu__unread-message > h3,div.left-menu__user-notification > h3{border-top:1px solid #b80f12;}
+
+div.blog__about > h3{font-size:0;
+background:url(https://i.imgur.com/E9pP4X0.jpg)no-repeat left center;
+background-size: 103%;
+height: 86px;
+border-top:1px solid #b80f12;
+border-bottom:1px solid #b80f12;
+background-position: 0px -50px }
+
+.post-content{position:relative;
+background:url(https://i.imgur.com/YLWqC2z.png)left center;
+background-size: 103%;}
+
+.post-content:before{height: 30px;
+    width: 30px;
+    right: 0px;
+    top: 0;
+    border: 5px solid #b80f12;
+    border-width: 5px 5px 0 0;
+    content: '';
+    position: absolute;}
+
+.post-content:after {
+    height: 30px;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+    border: 5px solid #b80f12;
+    border-width: 0px 0px 5px 5px;
+    content: '';
+    position: absolute;
+}
+
+.post-row,.comment-row{
+    margin-left: 15px;}
+
+div.blog__about {background:url()no-repeat bottom left;
+background-size: 116%;}
+
+
+div.crumbs {background:url(https://i.imgur.com/YLWqC2z.png)no-repeat left center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+border-top:1px solid #b80f12;
+border-bottom:1px solid #b80f12;
+background-size: 103%;}
+
+.comment-content{position:relative;
+background:url(https://i.imgur.com/YLWqC2z.png) left center;
+background-size: 103%;}
+
+.comment-content:before{height: 30px;
+    width: 30px;
+    right: 0px;
+    top: 0;
+    border: 5px solid #b80f12;
+    border-width: 5px 5px 0 0;
+    content: '';
+    position: absolute;}
+
+.comment-content:after {
+    height: 30px;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+    border: 5px solid #b80f12;
+    border-width: 0px 0px 5px 5px;
+    content: '';
+    position: absolute;
+}
+
+.comment-box__message-partial{text-align:center;
+text-transform: lowercase;}
+
+.comment-content .post-title-user {    margin-left: 20px;}
+.post-content .post-title-user {    margin-left: 20px;}
+
+.post-title{display:block;
+text-decoration: none;
+padding-left: 32px;
+position:relative;}
+.post-title:before {left:0;
+    mix-blend-mode: lighten;
+    position: absolute;
+    content: '';
+    background: url(https://i.imgur.com/6LFRl3i.png)no-repeat,transparent;
+    height: 35px;
+    width: 35px;
+    background-size: contain;
+}
+
+.quotation {
+    border-left: 3px solid #d91223;}
+
+input{border:1px dashed #b80f12;
+margin: 5px 5px 5px;
+background: #050505 !important;
+color:#b80f12;}
+form.messageform select{border:1px dashed #b80f12;
+margin: 5px 5px 5px;
+background: #050505 !important;
+color:#b80f12;}
+
+form.messageform option{background: #050505 !important;
+color:#b80f12;}
+
+.left-menu-text [action="/search"] {font-size: small;}
+
+div#footer, script+div, div#app+div+[style="text-align: center"] {font-size: 0px;}
+
+a:hover{text-decoration: dashed underline!important;}
+
+a.navbar-brand {
+    background: url(https://i.imgur.com/GjoJCy2.jpg) no-repeat right;
+    background-size: 50px;
+padding-right:50px;}
+.navbar-brand {font-size:0;
+height:50px;}
+
+.bg-white{background-color: #000;}
+
+li:before{content:'✧'!important;
+font-size:12px;
+margin-right:2px;
+color:#d91223;
+font-weight: bold;} 
+li{list-style: none;}
+
+::-webkit-scrollbar{
+
+width: 3px;
+position: fixed;
+right: 10px;}
+
+::-webkit-scrollbar-track {
+box-shadow: none;
+border-radius: 2px;
+background-color: #000}
+
+::-webkit-scrollbar-thumb {
+background: #d91223 !important;}
+
+.datebg{font-size:10px;}
+
+div.row.w-100,[style="display: flex; justify-content: space-between;"],.post-opt {text-transform: lowercase;}
+
+h3.left-menu-text {background-color:#d70330!important;
+text-transform: lowercase;
+color:#000;}
+
+.btn-primary,.btn-secondary{ background: #d70330 !important;
+border: none!important;
+color:#000!important;}
+
+.modal-header{
+border-bottom:1px dashed #b80f12;}
+.modal-footer {
+border-top:1px dashed #b80f12;}
+
+.modal-content{border:1px solid #b80f12;
+background:url(https://i.imgur.com/YLWqC2z.png) left center;
+background-size: 103%;
+color:#b80f12;}
+
+.avatar-select-label {
+    border: 4px solid #000;
+}
+
+.avatar-select-label-selected {
+    border: 4px solid #b80f12!important;
+scale: 0.9;}
+
+textarea{border:1px solid #b80f12;
+background:url(https://i.imgur.com/YLWqC2z.png) left center;
+background-size: 103%;
+color:#b80f12;}
+
+.alert-success{border:1px solid #b80f12;
+background:url(https://i.imgur.com/YLWqC2z.png) left center;
+background-size: 103%;
+color:#b80f12;
+width:fit-content;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:5px;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+font-size:0px;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {content: '⇡';
+font-size:50px!important;
+position: fixed;
+font-weight: bold;
+right:2%;
+top:15%;}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]{font-size:0px;}
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before {position: fixed;
+content: '⇣';
+font-weight: bold;
+font-size:50px!important;
+right:2%;
+bottom:15%;
+}
+
+.menu__box{border-left: 1px dashed #b80f12!important;
+background:#000!important;}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #b80f12!important;}
+
+@media{
+main.py-4{
+max-width: 1200px;
+margin: auto;}
+
+@media (max-width: 700px) {.py-4,.textareabg,div#app{
+width: 100%!important;
+margin: 0 0!important;}
+
+.comment-content,.post-content{
+margin-left:auto!important;
+margin-right:auto!important;
+width: 90%!important;}
+
+.content,.left-menu{margin:auto!important;
+width: 90%!important;}
+
+body{background: url(https://i.imgur.com/HSqfsKw.png)no-repeat  fixed top left,
+url(https://i.imgur.com/V9rcF4t.png);
+background-size:0%,25%;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {display:none;}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before{display:none;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"],[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"] {
+font-size:14px;}
+
+div.blog__about > h3{font-size:0;
+background:url(https://i.imgur.com/E9pP4X0.jpg)no-repeat;
+background-size: 100%;
+height: 86px;
+border-top:1px solid #b80f12;
+border-bottom:1px solid #b80f12;
+background-position: 0px -92px }
+
+.comment-content .post-title-user {    margin-left: unset;}
+.post-content .post-title-user {    margin-left: unset;}
+.post-row,.comment-row{
+    margin-left: unset;}
+
+div.row.w-100,[style="display: flex; justify-content: space-between;"],.post-opt{text-transform: lowercase;
+font-size: 0.62rem;}
+
+.comment-box i.fas{font-size: small;}
+.fas{font-size: small;
+padding: unset;}
+
+span.comments_count span::before {
+    font-size: 1.1rem;
+padding: unset;
+}
