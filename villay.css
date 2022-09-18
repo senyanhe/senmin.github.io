@@ -252,6 +252,25 @@ bottom:15%;
 background:#000!important;}
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #b80f12!important;}
 
+#beon-fnplayer {
+    border-top: 1px dashed red;
+    border-bottom: 1px dashed red;
+ background-color: #000;}
+
+#fnplayer-play {border-color: transparent transparent transparent red;}
+
+#fnplayer-stop{
+ background:red;}
+
+#fnplayer-volume-mask {border-color: #000 transparent transparent transparent;}
+#fnplayer-volume-inner {
+ background-color: red;}
+#fnplayer-slider {
+ background-color: #000}
+
+#fnplayer-slider-inner {
+ background-color: red;}
+
 @media{
 main.py-4{
 max-width: 1200px;
