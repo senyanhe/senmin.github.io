@@ -138,6 +138,8 @@ position:relative;}
 .quotation {
     border-left: 3px solid #d91223;}
 
+input[type="text"]::placeholder{color: #d91223!important;}
+
 input{border:1px dashed #b80f12;
 margin: 5px 5px 5px;
 background: #050505 !important;
