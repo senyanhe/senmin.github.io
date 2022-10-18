@@ -69,7 +69,8 @@ border-bottom:1px dashed #675e97;}
 .row.w-100{position: sticky;
 top: 100%;}
 
-.post-text,.comment-text{padding-top:20px;}
+.post-text,.comment-text{padding-top:20px;
+padding-left:5px;}
 
 .blog_total_counter{
     background: linear-gradient(to left,#adc8db, #f5e2b0);
@@ -212,6 +213,8 @@ margin-right:0px;
 
 .post-content .post-opt{padding-right:0;
 padding-left: 0;}
+
+.post-text a.user{font-weight: bold;}
 
 @media{
 main.py-4{
