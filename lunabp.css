@@ -249,6 +249,9 @@ text-shadow: 1px 1px black;}
     border-radius: unset;
 }
 
+#beon-fnplayer {
+ display: none;}
+
 .user_footer {
     height: 50px;
     padding: 1px;
