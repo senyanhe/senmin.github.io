@@ -1,0 +1,130 @@
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+text-transform: lowercase;
+color:#461c00!important;
+ transition: .5s;}
+#footer{display:none;}
+.post-avatar {display: table;
+width: 1px;
+margin-top: 5px;
+float: left;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.avatar-select-list {height: 234px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg,.comment-box h2,.comment-box__message-partial{text-align:center;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+.post-content, .comment-content,.textareabg {margin: 10px 10px 20px;
+min-height:unset;}
+.post-title-date+span {display:none;}
+
+body{background:url(https://i.imgur.com/1kBIfGe.jpg)top right no-repeat fixed,url(https://i.imgur.com/bqFpF6R.png)fixed,url(https://i.imgur.com/8RtuWNp.png)top left no-repeat fixed,#d1c3b6;
+background-size:auto 100%;
+background-blend-mode: darken;}
+
+.comment-content,.post-content,.textareabg,.modal-content {padding:10px;
+    background: url(https://i.imgur.com/pImkTPi.png)top left repeat;
+    background-size: 53%;
+border-radius:20px;
+border:1px dashed #462b1970;}
+
+.content {margin-left:21px;
+    width: 50%;
+    background:#00000020;
+border-bottom:1px dashed #462b1970;
+border-left:1px dashed #462b1970;
+border-right:1px dashed #462b1970;}
+
+
+div.crumbs{ background: url(https://i.imgur.com/pImkTPi.png)top left repeat;
+    background-size:cover;
+border-bottom:1px dashed #462b1970;
+margin:0;}
+
+.bg-white{    background: url(https://i.imgur.com/pImkTPi.png)top left repeat;
+    background-size:contain;}
+
+.blog_total_counter {display:none;}
+
+.py-4+.crumbs{display:none;}
+
+div.left-menu{border:none;
+margin-top:20px;}
+.left-menu>div { width:300px;
+box-shadow: 6px 9px #00000020;
+    background: url(https://i.imgur.com/pImkTPi.png)top left repeat;
+font-size:12px;
+border:1px dashed #462b1970;
+margin:auto;
+margin-bottom: 45px!important;
+padding: 10px;
+    background-size:contain;
+border-radius:15px;
+text-align:center;}
+
+h3.left-menu-text{  background:transparent!important;
+margin:auto;
+color:#461c00;
+margin-bottom:10px!important;
+width:fit-content;}
+
+.blog__last-comments{display:none;}
+
+.datebg {
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 80%;
+text-align:center;}
+
+.btn-primary,.btn-secondary{background:#d1c3b6!important;
+border:1px dashed #462b1970!important;}
+
+.modal-body {
+    display: flex;
+    align-content: center;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer{font-size:0}
+div#app+div:after{content:'design by https://cherrycherry.beon.fun/';
+font-size:14px;
+display:block;
+text-align: center;}
+
+.user_footer {
+    height: 50px;
+    padding: 1px;
+border: unset;
+    vertical-align: middle;
+    font-size: 100%;
+    border-radius: unset;
+}
+
+.div_user_img {
+    width: 130px;
+    height: unset;
+    border-top:unset;
+    border-right: unset;
+    border-left: unset;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    border-radius: unset;
+}
+
+.btn-outline-primary {
+background:#d1c3b6!important;
+border:1px dashed #462b1970!important;}
+
+
+.btn-outline-primary:hover {background:#d1c3b6!important;
+border:1px dashed #462b1970!important;}
