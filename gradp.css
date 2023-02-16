@@ -1,0 +1,228 @@
+a,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+text-transform: lowercase;
+color:#e296af;
+ transition: .5s;}
+#footer{display:none;}
+.post-avatar {
+margin-top: 5px;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.avatar-select-list {height: 234px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg,.comment-box h2,.comment-box__message-partial{text-align:center;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+.post-content, .comment-content,.textareabg {margin: 10px 10px 20px;
+min-height:unset;}
+.post-title-date+span {display:none;}
+
+div{color:#ffd5e3;}
+a:hover{color:#ab5a75;}
+
+body{background:url(https://imgur.com/LJtaqBh),#060606;
+font-size: small;}
+
+main.py-4{border: 1px solid #e296af30;
+    background:#000;
+width:60%;
+    margin: auto;
+box-shadow: #e296af30 0px 0px 133px 0px;}
+
+div.left-menu{border:none;
+margin-top: 10px;
+background:url(https://i.imgur.com/5Gf33yV.png)fixed no-repeat;
+margin-bottom: 0;
+background-position: 22.2% -10px;
+    background-size: contain;
+margin-right: 0;}
+
+
+h3.left-menu-text {
+    color: #ffd5e3!important;
+    font-size: 15px;
+    background: linear-gradient(120deg,#e296af60 19%,transparent)!important;
+    border-bottom: 1px dotted #e296af50;
+    border-top: 1px dotted #e296af50;
+}
+.blog__last-comments,.blog__iread,[src="/i/blog.png"],[src="/i/user.png"],[src="/i/online.png"]{display:none;}
+
+.content{border-left:1px solid #e296af30;}
+
+div.crumbs{width:60%;
+border: 1px solid #0f0f0f;
+    background:#000;
+    margin-left: auto;
+    margin-right: auto;}
+
+.post-content, .comment-content{
+    background: linear-gradient(225deg,#e296af50 -39%,transparent);
+    border-bottom: 1px dotted #e296af50;
+    border-top: 1px dotted #e296af50;
+    margin-bottom: 30px!important;
+}
+
+.left-menu>div {
+    background: linear-gradient(to bottom,#000 95%,transparent);
+margin-bottom: 25px;}
+
+.textareabg{background:url(https://i.imgur.com/5Gf33yV.png);
+    border: 1px dotted #e296af50;
+padding:10px;}
+
+h2,h1,.datebg  {text-align:center;
+font-size: 80%;}
+
+input{background:linear-gradient(225deg,#e296af50 -39%,transparent)!important;
+    border: 1px dotted #e296af50!important;
+border-radius: 5px;
+margin:3px 3px 3px;
+color:#e296af!important;}
+
+
+form.messageform select{background:linear-gradient(225deg,#e296af50 -39%,transparent)!important;
+    border: 1px dotted #e296af50!important;
+border-radius: 5px;
+color:#e296af;}
+
+form.messageform option{background:#e296af;
+color:#000 }
+
+.btn-primary,.btn-secondary{ background:linear-gradient(225deg,#e296af50 -39%,transparent)!important;
+    border: 1px dotted #e296af50!important;
+border-radius: 5px;
+color:#e296af!important;}
+
+textarea{background:#000;
+    border: 1px dotted #e296af50;
+color:#e296af!important;}
+
+.avatar-select-label {
+    margin: 2px;
+    border-radius: 100px;
+    width: 50px;
+    border: 2px solid #e296af;
+    transition: 0.2s;}
+
+.avatar-select-label-selected {
+    border-radius: 100px;
+    width: 40px;
+    border: 5px solid #ffd5e3;
+    transition: 0.2s;}
+
+.comment-box h2 {font-size:0;}
+
+::-webkit-scrollbar {
+    width: 17px;
+    height: 17px;
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+    border: 6px solid #000;
+    background-color: #e296af;
+    min-height: 24px;
+    min-width: 24px;
+}
+::-webkit-scrollbar-track {
+    border: 8px solid #000;
+    background-color: #e296af;
+}
+
+.modal-content{      background: linear-gradient(225deg,#e296af -39%,#000);
+    border: 1px dotted #e296af50;
+color:#e296af!important;
+}
+
+.alert-success{      background: linear-gradient(225deg,#e296af -39%,#000);
+    border: 1px dotted #e296af50;
+color:#e296af!important;
+width:50%;
+margin:auto;
+margin-bottom:20px;}
+
+.modal-header{
+border-bottom:1px dotted #e296af50!important;}
+.modal-footer {
+border-top:1px dotted #e296af50!important;}
+
+.bg-white {background:transparent;}
+
+.bg-white a{color:#e296af!important;}
+
+.div_user_img {
+    width: 130px;
+    height: unset;
+    border-top:unset;
+    border-right: unset;
+    border-left: unset;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    border-radius: unset;
+}
+
+.user_footer {
+    height: 50px;
+    padding: 1px;
+border: unset;
+    vertical-align: middle;
+    font-size: 100%;
+    border-radius: unset;
+}
+
+.modal-body {
+    display: flex;
+    align-content: center;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer{font-size:0}
+div#app+div:after{content:'design by https://cherrycherry.beon.fun/';
+font-size:14px;
+display:block;
+text-align: center;}
+
+.btn-outline-primary {
+    background-color: transparent;
+    background-image: none;
+    border-color: #e296af;
+color:#e296af!important;}
+
+.btn-outline-primary:hover {    background-color: #e296af;
+color:#000!important;
+border-color: #e296af;}
+
+@media (max-width: 700px) {.py-4,.content,.textareabg{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content,.textareabg{
+margin-left: auto!important;
+margin-right: auto!important;
+width: 99%!important;}
+
+.left-menu{margin-top:0!important;
+margin-bottom:0!important;
+margin-left: auto!important;
+}
+
+.left-menu > div.mobile_open_menu > h3 {
+text-align: center!important;}
+
+.left-menu > div.mobile_open_menu {    padding: 0;}
+
+div.crumbs{
+width: 100%!important;}
+
+.menu__box{
+border-left: 1px solid #e2abd9!important;
+ background: #000;}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #e296af!important;}
