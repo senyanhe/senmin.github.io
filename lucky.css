@@ -323,3 +323,6 @@ border-left: 1px solid #ffa0b9!important;
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after{background-color:#ffa0b9!important;}
 .menu__item:hover { background: #ffa0b9!important;
 color: #fff!important;}
+
+.post-avatar img{
+outline: unset;}
