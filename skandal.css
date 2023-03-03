@@ -20,7 +20,7 @@ margin-bottom: 0;}
 min-height:unset;}
 .post-title-date+span {display:none;}
 
-body{background: #1a1a1a;}
+body{background: #000;}
 div{color:#9d9d9d;
 text-transform: lowercase;}
 a:hover{color:#afafaf;}
@@ -114,9 +114,9 @@ margin-right:auto;}
     position:absolute;}
 
 .blog_total_counter{
-    background: url(https://i.imgur.com/WONwfpx.png)no-repeat bottom center,#111;
+    background: url(https://i.imgur.com/WONwfpx.png)no-repeat center,#111;
     font-size: 0;
-    height:350px;
+    height:450px;
     background-size:100% auto;
    }
 
@@ -410,7 +410,7 @@ div.blog__about > h3{background-color: #3b3b3b!important;
 
 .left-menu-text [action="/search"] {position:unset;}
 
-.left-menu [href="//beon.fun/users/cherrycherry"] {
+.left-menu [href="//beon.fun/users/skxndxl"] {
     position: unset!important;
     margin-top: unset!important;
     font-size: unset!important;
@@ -444,7 +444,7 @@ border-left: 1px solid #3b3b3b!important;
  background: #111;}
 
 img[src="//beon.fun/i/design-off.png"]{display:unset;}
-[href="/design/disable"],.actionignore,.blog-subscribe,[href="//cherrycherry.beon.fun/give-gift"],[href="//im.beon.fun/cherrycherry"],.actionfriend {    border:unset!important;
+[href="/design/disable"],.actionignore,.blog-subscribe,[href="//skxndxl.beon.fun/give-gift"],[href="//im.beon.fun/skxndxl"],.actionfriend {    border:unset!important;
     background:none!important;
     border-radius:unset!important;
     position: unset!important;
