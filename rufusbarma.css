@@ -20,6 +20,52 @@ margin-bottom: 0;}
 min-height:unset;}
 .post-title-date+span {display:none;}
 
+div#beon-fnplayer {
+    padding: 5px;
+    background: transparent;
+}
+
+ #fnplayer-slider > span { 
+font-size:0px!important;  
+} 
+
+#fnplayer-slider {
+    height: 2px;
+    background-color: #3b3b3b!important;
+}
+
+#fnplayer-slider-inner {
+    height: 2px;
+    width: 0%;
+    background-color: #3b3b3b;
+}
+
+#fnplayer-volume {
+    height: 2px;
+    background-color: #3b3b3b;
+}
+
+#fnplayer-volume-inner {
+    height: 2px;
+    width: 100%;
+    background-color: #3b3b3b!important;
+}
+
+#fnplayer-volume-mask {
+border:none!important;
+}
+
+#fnplayer-stop {
+    border: 0;
+    background: #3b3b3b!important;
+    margin-bottom: 1px;
+}
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #99999966!important;
+    margin-bottom: 1px;
+}
+
 body{background: #181818;}
 div{color:#9d9d9d;
 text-transform: lowercase;}
@@ -102,6 +148,9 @@ margin-right:auto;}
 .comment-content,.post-content{
     padding-top:80px;}
 
+
+.content h1{text-align:center!important;}
+
 .comment-content .post-avatar{
     top: 15px;
     position:absolute;}
@@ -183,7 +232,8 @@ text-align:center;
     width:30px;
     height:30px;
     background-size: 20px;
-    margin-top: 35px;}
+    margin-top: 35px;
+    left: 6px;}
 
 [href="//cherrycherry.beon.fun/give-gift"]{
     border: 1px solid #3b3b3b!important;
