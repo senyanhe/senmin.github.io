@@ -287,7 +287,8 @@ img[src="//beon.fun/i/design-off.png"]{display:none;}
     font-size: 13px;
     text-transform: uppercase!important;
     margin-left: 42px;
-    color:#464646;}
+    color:#464646;
+    width: 200px;}
 
 ul ul {
     list-style-type: none;}
