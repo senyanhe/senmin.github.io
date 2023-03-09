@@ -324,5 +324,5 @@ border-left: 1px solid #ffa0b9!important;
 .menu__item:hover { background: #ffa0b9!important;
 color: #fff!important;}
 
-.post-avatar img{
+.post-avatar img,div.blog__about .mw-100{
 outline: unset;}
