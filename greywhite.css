@@ -88,8 +88,6 @@ padding:8px;
 border-radius:8px;
 margin-bottom: 10px;}
 
-div.blog__about > div:nth-child(3){text-align:center;}
-
 div.blog__about{position:relative;}
 div.blog__about:before{
 content:'';
