@@ -1,0 +1,224 @@
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#c4c4c4!important;
+text-transform: lowercase!important;}
+#footer{display:none;}
+.post-avatar {
+margin-top: unset;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.avatar-select-list {height: 234px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg,.comment-box h2,.comment-box__message-partial{text-align:center;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+.post-content, .comment-content,.textareabg {margin: 10px 10px 20px;
+min-height:unset;}
+.post-title-date+span {display:none;}
+h2 { font-size: 110%;}
+/*------------------------*/
+
+/* фон */
+body{background:url(https://i.imgur.com/NLYlL8B.jpg)top right fixed no-repeat,url(https://i.imgur.com/o0PgJjk.png)fixed no-repeat;
+background-size:auto 100% , 100% auto;}
+
+/* записи и коменты */
+.datebg{
+    text-transform: uppercase;
+font-size:10px;
+    text-align:center;}
+
+.post-content, .comment-content, .textareabg{
+background:#00000050;
+border:1px solid #4a4a4a;
+padding:6px;
+border-radius:6px;}
+
+.post-title,.post-content h1{display:block;
+text-align:center;
+border-bottom:1px solid #4a4a4a;}
+
+.content{width:55.6%;
+border:1px solid #c4c4c4;
+border-top:unset;}
+
+.content h1{    font-size: 110%;
+text-align:center;}
+
+/* меню */
+div.left-menu {width:16.5%;
+background:url(https://i.imgur.com/poh8bq7.png)bottom left fixed no-repeat,#00000050;
+background-size:16%;
+border:none;
+margin-top:15px;
+margin-left:unset;;
+margin-right:unset;
+margin-bottom:0;
+border-bottom:1px solid #c4c4c4;}
+
+h3.left-menu-text{background:#00000050!important;
+border-top:1px solid #4a4a4a!important;
+border-bottom:1px solid #4a4a4a!important;}
+
+.blog__tags{border-bottom:1px solid #4a4a4a!important;}
+
+/* делит */
+.blog__last-comments,.blog__iread,.blog__read-me,.left-menu__friends,.left-menu__friends_offline,.left-menu__friends_online,.user:before,.post-title-date+a, .comment-content .post-title-date,.postsiblings,.py-4+.crumbs {display:none;}
+
+/* верх */
+div.crumbs{margin-top:0;
+margin-bottom:0;
+border-bottom:1px solid #c4c4c4;
+background:#000000;
+height:4px;
+transition: .5s;
+overflow: hidden;}
+
+div.crumbs:hover{height:26px;
+transition: .5s;}
+
+.bg-white{background:#000000;
+border-bottom:1px solid #c4c4c4;}
+
+/* ава */
+.post-avatar img{height:100px;
+width:100px;
+object-fit: cover;
+border-radius:100%;
+border:3px solid #4a4a4a;}
+
+/* фота в меню*/
+.mw-100 {
+object-fit: cover;
+border-radius:100%;
+border:3px solid #4a4a4a;}
+
+/* окно */
+.modal-content,.alert-success{ background:#000000;
+border:1px solid #4a4a4a;;}
+
+.modal-header{
+border-bottom:1px solid #4a4a4a!important;}
+.modal-footer {
+border-top:1px solid #4a4a4a!important;}
+
+/* кнопы */
+input,form.messageform select,.btn-primary,.btn-secondary{    border: 1px solid #4a4a4a!important;
+    background: #000!important;
+    border-radius:8px!important;
+    margin:2px!important;
+    text-transform: lowercase!important;
+    color:#fff!important;}
+
+input[type="text"]::placeholder{   color:#fff!important;}
+
+/* скролл */
+::-webkit-scrollbar-thumb {
+    width: 3px;
+    background-color: #969696;
+border-radius: 3px;}
+
+::-webkit-scrollbar-thumb:hover {background-color:#e3e3e3;
+    	tansition: all .3s linear;
+    	-webkit-transition: all .3s linear;
+    	-moz-transition: all .3s linear; }
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #000;
+}
+
+/* авы */
+.avatar-select-label {
+    border: 4px solid #000;}
+.avatar-select-label-selected {
+    border: 4px solid #4a4a4a!important;
+}
+
+
+/* кнопы */
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]{font-size:0px;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {
+    content: '';
+    background: url(https://i.imgur.com/ttgJWfm.png),#000;
+    background-size: 69%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #4a4a4a;
+    padding: 23px;
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    right: 1.5%;
+    top: 11%;
+    border-radius: 100px;
+filter: grayscale(1);}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]{font-size:0px;}
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before {
+    content: '';
+    background: url(https://i.imgur.com/vrApVkf.png),#000;
+    background-size: 69%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #4a4a4a;
+    padding: 23px;
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    right: 1.5%;
+    top: 88%;
+    border-radius: 100px;
+filter: grayscale(1);}
+/*------------------------*/
+
+@media (max-width: 700px) {.py-4,.content,.textareabg{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content,.textareabg,div.crumbs,div.left-menu{
+margin-left: auto!important;
+margin-right: auto!important;
+width: 99%!important;}
+
+div.left-menu {margin-left:unset;
+position: unset;
+margin-top:15px;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before {display:none;}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before{display:none;}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"],[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"] {
+font-size:14px;}
+
+.menu__box{background:#000;
+border-left:1px solid #4a4a4a;}
+
+.menu__item {border-bottom:1px solid #4a4a4a;}
+.menu__item:hover {background:#4a4a4a;}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #4a4a4a!important;}
+
+body{background:url(https://i.imgur.com/o0PgJjk.png)fixed no-repeat;
+background-size: auto 100%;}
+
+div.crumbs{
+border-bottom:1px solid #c4c4c4;
+background:#000000;
+height:unset;
+overflow: unset;}
+
+div.crumbs:hover{height:unset;
+}
+
+.content{width:55.6%;
+border:none;
+border-top:unset;}
+
+div.left-menu {
+border-bottom:unset;}
