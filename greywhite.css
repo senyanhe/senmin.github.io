@@ -60,7 +60,7 @@ border:1px solid #d6d6d7;
     background: #fff;}
 
 /* делит */
-.blog__last-comments,.blog__iread,.blog__read-me,.left-menu__friends,.left-menu__friends_offline,.left-menu__friends_online,.user:before,.post-title-date+a, .comment-content .post-title-date,.mw-100,.postsiblings,.py-4+.crumbs {display:none;}
+.blog__last-comments,.blog__iread,.blog__read-me,.left-menu__friends,.left-menu__friends_offline,.left-menu__friends_online,.user:before,.post-title-date+a, .comment-content .post-title-date,.mw-100,.postsiblings,.py-4+.crumbs,.blog__gifts {display:none;}
 
 /* коменты */
 .comment-content .post-title-user {
