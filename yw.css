@@ -1,0 +1,160 @@
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#000!important;
+text-transform: uppercase!important;
+transition: .2s;}
+#footer{display:none;}
+.post-avatar {
+margin-top: unset;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.avatar-select-list {height: 234px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg,.comment-box h2,.comment-box__message-partial{text-align:center;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+.post-content, .comment-content,.textareabg {margin: 10px 10px 20px;
+min-height:unset;}
+.post-title-date+span {display:none;}
+/*------------------------*/
+
+/* фон */
+body{background:url(https://i.imgur.com/9zCurbh.png)fixed no-repeat,#fed94c;
+background-size:auto 100%;}
+
+/* записи и коменты */
+.datebg{
+font-size:13px;}
+
+.post-content, .comment-content{background:#fff;
+padding:5px;}
+
+.textareabg,.alert-success {background:#fff;
+padding:5px;
+border:none;}
+
+.content{width:71.5%;
+margin-left:auto;
+margin-right:auto;}
+
+.row.w-100{position: sticky;
+top: 100%;}
+
+/* меню */
+div.left-menu {margin-left:20px;
+border:none;
+background:#fff;
+margin-top:10px;
+    font-size: small;}
+
+h3.left-menu-text{  background:#fed94c!important;
+color:#000!important;
+    font-size: 18px;
+}
+
+/* верх */
+.pc-menu a {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+/* скролл */
+::-webkit-scrollbar {
+    width: 17px;
+    height: 17px;
+    background-color: #e9e9e9;
+}
+::-webkit-scrollbar-thumb {
+    border: 6px solid #fed94c;
+    background-color: #fff;
+    min-height: 24px;
+    min-width: 24px;
+}
+::-webkit-scrollbar-track {
+    border: 8px solid #fed94c;
+    background-color: #fff;}
+
+.div_user_img {
+    width: 130px;
+    height: unset;
+    border-top:unset;
+    border-right: unset;
+    border-left: unset;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    border-radius: unset;
+}
+
+/* окошко с лайками */
+.user_footer {
+    height: 50px;
+    padding: 1px;
+border: unset;
+    vertical-align: middle;
+    font-size: 100%;
+    border-radius: unset;
+}
+
+.modal-body {
+    display: flex;
+    align-content: center;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* кнопы в настройках */
+.btn-outline-primary {
+    background-color: transparent;
+    background-image: none;
+    border-color: #fed94c;
+    color:#000!important;}
+
+.btn-outline-primary:hover {    background-color: #fed94c;
+    color:#000!important;
+    border-color: #fff!important;}
+
+/* кнопы */
+input,form.messageform select,.btn-primary,.btn-secondary{    border: 1px solid #fed94c!important;
+    background: #fff!important;
+    border-radius:8px!important;
+    margin:2px!important;
+    color:#000!important;
+    text-transform: lowercase!important;}
+
+input[type="text"]::placeholder{color: #000!important;}
+
+
+
+@media (max-width: 700px) {.py-4,.content,.textareabg{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content,.textareabg,.left-menu{
+margin-left: auto!important;
+margin-right: auto!important;
+width: 99%!important;}
+
+.comment-text+div, .post-content .post-opt,.post-content i{font-size: 0.7rem;}
+.comment-text+div i{font-size: 0.7rem;}
+
+.blog_total_counter{font-size:13px;}
+
+.pagination {
+    background-color: #fff;
+    font-size: 15px;
+}
+
+span.comments_count span::before {
+    font-size: 1rem;}
+
+span.comments_count a {
+    font-size: 1rem;
+}
