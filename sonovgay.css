@@ -12,7 +12,7 @@ div#app {padding: 0px;}
 .left-menu-text p{padding:0px;}
 p {margin-top: 0;
 margin-bottom: 0;}
-.textareabg,.comment-box h2,.comment-box__message-partial{text-align:center;}
+.comment-box h2,.comment-box__message-partial{text-align:center;}
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
 .post-content, .comment-content,.textareabg {margin: 10px 10px 20px;}
 .post-title-date+span {display:none;}
@@ -45,7 +45,7 @@ margin-left:50px;}
 top: 100%;}
 
 .blog_total_counter{font-size:10px;
-text-align:center;}
+}
 
 .content h1{    font-size: 110%;
 text-align:center;}
@@ -57,7 +57,7 @@ border:1px solid #a62a38;
     padding: 5px;}
 
 /* делит */
-.blog__last-comments,.blog__iread,.blog__read-me,.left-menu__friends,.left-menu__friends_offline,.left-menu__friends_online,.user:before,.post-title-date+a, .comment-content .post-title-date,.mw-100,.postsiblings,.py-4+.crumbs,.blog__gifts {display:none;}
+.user:before,.post-title-date+a, .comment-content .post-title-date,.mw-100,.postsiblings,.py-4+.crumbs{display:none;}
 
 /* коменты */
 .comment-content .post-title-user {
@@ -66,11 +66,11 @@ border:1px solid #a62a38;
 .comment-text+div{margin-left:15px;}
 
 /* меню */
-div.left-menu {position: sticky;
+div.left-menu {
 margin-left:100px;
 margin-top:350px;
 border:none;
-top: 35%;}
+position:relative;}
 
 .left-menu{overflow-x: unset;}
 
@@ -86,7 +86,6 @@ padding:8px;
 border-radius:8px;
 margin-bottom: 10px;}
 
-div.blog__about > div:nth-child(3){text-align:center;}
 
 div.left-menu:before{
 content:'';
@@ -95,7 +94,7 @@ position:absolute;
 width:100%;
 height:240px;
 background:url(https://i.ibb.co/SJJnmy6/11.gif)center no-repeat,#000;
-top: -260px;
+top: -250px;
 left: 0;
 border:1px solid #a62a38;
 padding:8px;
@@ -151,7 +150,7 @@ margin: 2px 2px 2px;
   border: 1px double #a62a38!important;
 border-radius: 5px;
 color:#a62a38;
-text-transform: lowercase!important;}
+}
 
 form.messageform option{background:#000;
 color:#a62a38 }
@@ -162,7 +161,6 @@ margin: 2px 2px 2px!important;
   border: 1px double #a62a38!important;
 border-radius: 5px!important;
 color:#a62a38!important;
-text-transform: lowercase!important;}
 }
 
 /* скролл */
