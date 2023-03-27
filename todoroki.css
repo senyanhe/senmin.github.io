@@ -1,0 +1,192 @@
+a,div,td,.pagination-goto,span[data-target="#deleteconfirmmodal"]{text-decoration: none!important;
+color:#3490dc!important;
+transition: .2s;}
+#footer{display:none;}
+.post-avatar {
+margin-top: unset;
+margin-right: 5px;
+margin-left: 5px;}
+.emj-dropdown-content {width:50%!important;}
+.avatar-select-list {height: 234px;}
+:focus {outline: none !important;}
+div#app {padding: 0px;}
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
+.textareabg,.comment-box h2,.comment-box__message-partial{text-align:center;}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {text-shadow: unset !important;}
+.post-content, .comment-content,.textareabg {margin: 10px 10px 20px;
+min-height:unset;}
+.post-title-date+span {display:none;}
+/*------------------------*/
+
+
+/* фон */
+body{ background:#ccdcfe20;}
+
+main.py-4{
+    background: url(https://i.pinimg.com/564x/3e/9c/c0/3e9cc05da57901d3ee649577543d3292.jpg)fixed;
+    background-size: 10%;
+padding: 20px!important;
+    border:1px solid #ccdcfe;}
+
+div#app{width:80%;
+    margin: auto;}
+
+/* записи и коменты */
+.post-content,.comment-content,.textareabg {
+    background: white;
+    padding: 6px;
+    border:1px solid #ccdcfe;}
+
+.blog_total_counter {
+font-size:0;
+    background: url(https://i.imgur.com/EEtphf0.png)no-repeat right center,#fff;
+    height: 245px;
+    background-size: contain;
+}
+
+/* меню */
+div.left-menu{    background: white;
+    border:1px solid #ccdcfe;
+margin-left:-4px;
+margin-top:10px;}
+
+h3.left-menu-text{  background:#ccdcfe!important;}
+
+.blog__read-me{ background: url(https://i.imgur.com/lD1GDYZ.png)no-repeat right;
+    background-size: contain;}
+
+.readertime {display: inline-block;
+max-width: 0px;
+transition: .5s;
+overflow: hidden;
+height: 15px;}
+
+.left-menu-text:hover span.readertime {
+    max-width: 130px;
+    transition: .5s;
+}
+
+/* шапка */
+.bg-white{  background:#ccdcfe!important;
+    border-bottom:1px solid #fff;}
+
+div.crumbs{margin:0;
+background:#ccdcfe;
+    border-bottom:1px solid #fff;}
+
+/* дата */
+.datebg {background: white;
+    border:1px solid #ccdcfe;
+text-align:right;}
+
+/* окошко с лайками */
+.user_footer {
+    height: 50px;
+    padding: 1px;
+border: unset;
+    vertical-align: middle;
+    font-size: 100%;
+    border-radius: unset;
+}
+
+.modal-body {
+    display: flex;
+    align-content: center;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* кнопы в настройках */
+.btn-outline-primary {
+    background-color: #fff;
+    background-image: none;
+    border-color: #ccdcfe;
+    color:#3490dc!important;}
+
+.btn-outline-primary:hover {    background-color: #fff;
+    color:#3490dc!important;
+    border-color: #ccdcfe!important;}
+
+/* кнопы */
+input,form.messageform select,.btn-primary,.btn-secondary{    border: 1px solid #ccdcfe!important;
+    background: #fff!important;
+    border-radius:8px!important;
+    margin:2px!important;
+    color:#3490dc!important;
+    text-transform: lowercase!important;}
+
+input[type="text"]::placeholder{color: #3490dc!important;}
+
+.div_user_img {
+    width: 130px;
+    height: unset;
+    border-top:unset;
+    border-right: unset;
+    border-left: unset;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    border-radius: unset;
+}
+
+/* скролл */
+::-webkit-scrollbar {
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    border: 6px solid #ccdcfe;
+    background-color: #fff;
+    min-height: 24px;
+    min-width: 24px;
+}
+::-webkit-scrollbar-track {
+    border: 8px solid #ccdcfe;
+    background-color: #fff;}
+
+
+
+/*------------------------*/
+
+@media (max-width: 700px) {.py-4,.content,.textareabg{
+width: 100%!important;
+margin: 0 0!important;
+}
+
+.comment-content,.post-content,.textareabg,.left-menu,.datebg {
+margin-left: auto!important;
+margin-right: auto!important;
+width: 99%!important;}
+
+.comment-text+div, .post-content .post-opt,.post-content i{font-size: 0.7rem;}
+
+span.comments_count span::before {
+    font-size: 1rem;}
+
+span.comments_count a {
+    font-size: 1rem;
+}
+.comment-text+div i{font-size: 0.7rem;}
+
+main.py-4{    background-size: 20%;
+padding: 5px!important;}
+
+div#app{width:100%;
+    margin: auto;}
+
+.blog_total_counter {
+    height:155px;}
+
+.menu__box{background:#fff;
+border:1px solid #ccdcfe;}
+
+.menu__item {border-bottom:1px solid #ccdcfe;}
+.menu__item:hover {background:#fff;}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #3490dc!important;}
