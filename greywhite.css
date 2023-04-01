@@ -89,7 +89,7 @@ border-radius:8px;
 margin-bottom: 10px;}
 
 div.blog__about{position:relative;}
-div.blog__about:before{
+div.left-menu:before{
 content:'';
 display:block;
 position:absolute;
