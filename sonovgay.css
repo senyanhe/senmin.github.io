@@ -57,7 +57,7 @@ border:1px solid #a62a38;
     padding: 5px;}
 
 /* делит */
-.user:before,.post-title-date+a, .comment-content .post-title-date,.mw-100,.postsiblings,.py-4+.crumbs{display:none;}
+.user:before,.postsiblings,.py-4+.crumbs{display:none;}
 
 /* коменты */
 .comment-content .post-title-user {
